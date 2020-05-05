@@ -32,7 +32,6 @@ exports.handler = (event, context, callback) => {
       "<p>Je suis quelqu'un de communicant, rigoureux et engagé (ne me demandez pas de faire l'impasse sur les tests).</p>\n" +
       '<p>Vous trouverez plus de détails sur mon parcours sur ma page personnelle <a href="http://alvin.berthelot.rocks">alvin.berthelot.rocks</a>.</p>\n' +
       "<p>Contactez-moi si vous avez <strong>un projet, un besoin de renfort dans votre équipe ou une demande de formation</strong> en lien avec mes compétences.</p>\n",
-    $filename: "alvin-berthelot.md",
     $slug: "alvin-berthelot",
   };
   callback(null, {
