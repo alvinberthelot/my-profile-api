@@ -1,3 +1,4 @@
+const { getVersion } = require("./contents/content-version")
 const { getSkills } = require("./contents/content-skills")
 const { getTechnicalSkills } = require("./contents/content-technical-skills")
 const { getEducation } = require("./contents/content-education")
@@ -6,6 +7,7 @@ const { getEvents } = require("./contents/content-events")
 
 exports.handler = (event, context, callback) => {
   content = {
+    version: getVersion(),
     firstname: "Alvin",
     lastname: "Berthelot",
     skillsSection: getSkills(),
