@@ -1,77 +1,162 @@
+const events = {
+  dotjs: {
+    title: "DotJS",
+    website: "https://www.dotjs.io",
+  },
+  dotcss: {
+    title: "DotCSS",
+    website: "https://www.dotcss.io",
+  },
+  helloworld: {
+    title: "Hello World",
+    website: "https://hello-world-conference.github.io/",
+  },
+  parisweb: {
+    title: "Paris Web",
+    website: "http://www.paris-web.fr",
+  },
+  devfest: {
+    title: "DevFest Nantes",
+    website: "https://devfest.gdgnantes.com",
+  },
+  web2day: {
+    title: "Web2Day",
+    website: "http://web2day.co",
+  },
+  agiletournantes: {
+    title: "Agile Tour Nantes",
+    website: "http://www.agilenantes.org",
+  },
+  bestofweb: {
+    title: "Best of Web",
+    website: "http://bestofweb.paris",
+  },
+  ngeurope: {
+    title: "ng-europe",
+    website: "https://ngeurope.org",
+  },
+  flupauxday: {
+    title: "FLUPA UX Day",
+    website: "http://uxday.flupa.eu",
+  },
+  scrumday: {
+    title: "ScrumDay",
+    website: "http://scrumday.fr",
+  },
+  breizhcamp: {
+    title: "BreizhCamp",
+    website: "http://www.breizhcamp.org",
+  },
+  nantesjs: {
+    title: "NantesJS",
+    website: "http://nantesjs.org",
+  },
+  devoxx: {
+    title: "Devoxx France",
+    website: "http://www.devoxx.fr",
+  },
+  sudweb: {
+    title: "Sud Web",
+    website: "http://sudweb.fr",
+  },
+  jugsummercamp: {
+    title: "JUG SummerCamp",
+    website: "http://www.jugsummercamp.org",
+  },
+  lego4scrum: {
+    title: "Lego4Scrum",
+  },
+}
+
+const sessions = {
+  ideatomarket: {
+    title: "De l'idée au marché ... ou pas !",
+  },
+  functionalfornewbies: {
+    title: "La programmation fonctionnelle (en JavaScript) pour les nuls",
+  },
+  letssketchtogether: {
+    title: "Let's sketch together",
+  },
+  jstests: {
+    title: "Les tests en JavaScript",
+  },
+  phaserjs: {
+    title: "Réaliser un jeu avec PhaserJS",
+  },
+  bootstrass: {
+    title: "Sass, pratique toute de suite",
+  },
+  diywebgame: {
+    title: "DIY une console de jeux web",
+  },
+  goodtoolscss: {
+    title: "Les bons outils CSS font les bons ouvriers du web",
+  },
+  agilemobile: {
+    title: "L'agilité dans la mobilité",
+  },
+}
+
 const getContent = () => {
   const content = {
     title: "Conférences",
     description: "",
     events: [
       {
-        title: "DotJS",
+        ...events.dotjs,
         date: "05-12-2019",
-        website: "https://www.dotjs.io",
       },
       {
-        title: "DotCSS",
+        ...events.dotcss,
         date: "04-12-2019",
-        website: "https://www.dotcss.io",
       },
       {
-        title: "Hello World",
+        ...events.helloworld,
         date: "15-11-2019",
         organizer: true,
-        website: "https://hello-world-conference.github.io/",
       },
       {
-        title: "Paris Web",
+        ...events.devfest,
         date: "21-10-2019",
-        website: "http://www.paris-web.fr",
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "10-10-2019",
-        website: "http://www.paris-web.fr",
       },
       {
-        title: "Hello World",
+        ...events.helloworld,
         date: "28-06-2019",
         organizer: true,
-        website: "https://hello-world-conference.github.io/",
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "05-06-2019",
-        website: "http://web2day.co",
       },
-
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "08-11-2018",
-        session: "De l'idée au marché ... ou pas !",
-        website: "http://www.agilenantes.org",
+        session: sessions.ideatomarket,
       },
       {
-        title: "DevFest Nantes",
+        ...events.devfest,
         date: "18-10-2018",
-        website: "https://devfest.gdgnantes.com",
       },
       {
-        title: "Best of Web",
+        ...events.bestofweb,
         date: "08-06-2018",
-        website: "http://bestofweb.paris",
       },
       {
-        title: "ng-europe",
+        ...events.ngeurope,
         date: "01-02-2018",
-        website: "https://ngeurope.org",
       },
-
       {
-        title: "DotJS",
+        ...events.dotjs,
         date: "01-12-2017",
-        website: "https://www.dotjs.io",
       },
       {
-        title: "DotCSS",
+        ...events.dotcss,
         date: "30-11-2017",
-        website: "https://www.dotcss.io",
       },
       {
         title: "BDX I/O",
@@ -79,14 +164,12 @@ const getContent = () => {
         website: "https://www.bdx.io",
       },
       {
-        title: "DevFest Nantes",
+        ...events.devfest,
         date: "19-10-2017",
-        website: "https://devfest.gdgnantes.com",
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "05-10-2017",
-        website: "http://www.paris-web.fr",
       },
       {
         title: "FullStack",
@@ -95,64 +178,53 @@ const getContent = () => {
           "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
       },
       {
-        title: "FLUPA UX Day",
+        ...events.flupauxday,
         date: "08-06-2017",
-        website: "http://uxday.flupa.eu",
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "07-06-2017",
-        session: "La programmation fonctionnelle (en JavaScript) pour les nuls",
-        website: "http://web2day.co",
+        session: sessions.functionalfornewbies,
       },
       {
         title: "Agile Vendée",
         date: "02-06-2017",
-        session: "Let's sketch together",
+        session: sessions.letssketchtogether,
         website: "http://agilevendee.org",
       },
       {
-        title: "NantesJS",
+        ...events.nantesjs,
         date: "20-04-2017",
-        session: "Les tests en JavaScript",
-        website: "http://nantesjs.org",
+        session: sessions.jstests,
       },
-
       {
-        title: "DotJS",
+        ...events.dotjs,
         date: "05-12-2016",
-        website: "https://www.dotjs.io",
       },
       {
-        title: "DotCSS",
+        ...events.dotcss,
         date: "02-12-2016",
-        website: "https://www.dotcss.io",
       },
       {
-        title: "DevFest Nantes",
+        ...events.devfest,
         date: "09-11-2016",
-        website: "https://devfest.gdgnantes.com",
       },
       {
-        title: "ng-europe",
+        ...events.ngeurope,
         date: "24-10-2016",
-        website: "https://ngeurope.org",
       },
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "13-10-2016",
-        website: "http://www.agilenantes.org",
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "29-09-2016",
-        session: "Réaliser un jeu avec PhaserJS",
-        website: "http://www.paris-web.fr",
+        session: sessions.phaserjs,
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "15-06-2016",
-        website: "http://web2day.co",
       },
       {
         title: "nCrafts",
@@ -165,32 +237,26 @@ const getContent = () => {
         website: "http://craft-conf.com",
       },
       {
-        title: "NantesJS",
+        ...events.nantesjs,
         date: "07-04-2016",
-        session: "Réaliser un jeu avec PhaserJS",
-        website: "http://nantesjs.org",
+        session: sessions.phaserjs,
       },
       {
-        title: "BreizhCamp",
+        ...events.breizhcamp,
         date: "23-03-2016",
-        session: "Sass, pratique toute de suite",
-        website: "http://www.breizhcamp.org",
+        session: sessions.bootstrass,
       },
-
       {
-        title: "DotJS",
+        ...events.dotjs,
         date: "07-12-2015",
-        website: "https://www.dotjs.io",
       },
       {
-        title: "DotCSS",
+        ...events.dotcss,
         date: "04-12-2015",
-        website: "https://www.dotcss.io",
       },
       {
-        title: "DevFest Nantes",
+        ...events.devfest,
         date: "06-11-2015",
-        website: "https://devfest.gdgnantes.com",
       },
       {
         title: "Blend Web Mix",
@@ -198,45 +264,37 @@ const getContent = () => {
         website: "http://www.blendwebmix.com",
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "01-10-2015",
-        session: "DIY une console de jeux web",
-        website: "http://www.paris-web.fr",
+        session: sessions.diywebgame,
       },
       {
-        title: "BreizhCamp",
+        ...events.breizhcamp,
         date: "10-06-2015",
-        session: "Les bons outils CSS font les bons ouvriers du web",
-        website: "http://www.breizhcamp.org",
+        session: sessions.goodtoolscss,
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "03-06-2015",
-        website: "http://web2day.co",
       },
       {
-        title: "Sud Web",
+        ...events.sudweb,
         date: "28-05-2015",
-        website: "http://sudweb.fr",
       },
       {
-        title: "Devoxx France",
+        ...events.devoxx,
         date: "08-04-2015",
-        session: "Let's sketch together",
-        website: "http://www.devoxx.fr",
+        session: sessions.letssketchtogether,
       },
-
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "27-11-2014",
         organizer: true,
-        website: "http://www.agilenantes.org",
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "16-10-2014",
-        session: "Let's sketch together",
-        website: "http://www.paris-web.fr",
+        session: sessions.letssketchtogether,
       },
       {
         title: "Agile Tour Rennes",
@@ -244,77 +302,65 @@ const getContent = () => {
         website: "http://agiletour.agilerennes.org",
       },
       {
-        title: "FLUPA UX Day",
+        ...events.flupauxday,
         date: "19-09-2014",
-        session: "Let's sketch together",
-        website: "http://uxday.flupa.eu",
+        session: sessions.letssketchtogether,
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "04-06-2014",
-        session: "Let's sketch together",
-        website: "http://web2day.co",
+        session: sessions.letssketchtogether,
       },
       {
         title: "Agile France",
         date: "22-05-2014",
-        session: "Let's sketch together",
+        session: sessions.letssketchtogether,
         website: "http://2015.conference-agile.fr",
       },
       {
-        title: "Sud Web",
+        ...events.sudweb,
         date: "16-05-2014",
-        session: "Let's sketch together",
-        website: "http://sudweb.fr",
+        session: sessions.letssketchtogether,
       },
       {
-        title: "ScrumDay",
+        ...events.scrumday,
         date: "09-04-2014",
-        session: "Let's sketch together",
-        website: "http://scrumday.fr",
+        session: sessions.letssketchtogether,
       },
-
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "14-11-2013",
         organizer: true,
-        session: "Let's sketch together",
-        website: "http://www.agilenantes.org",
+        session: sessions.letssketchtogether,
       },
       {
-        title: "DevFest Nantes",
+        ...events.devfest,
         date: "08-11-2013",
-        website: "https://devfest.gdgnantes.com",
       },
       {
         title: "Agile Tour Vannes",
         date: "07-11-2013",
-        session: "Let's sketch together",
+        session: sessions.letssketchtogether,
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "10-10-2013",
-        website: "http://www.paris-web.fr",
       },
       {
-        title: "JUG SummerCamp",
+        ...events.jugsummercamp,
         date: "20-09-2013",
-        website: "http://www.jugsummercamp.org",
       },
       {
-        title: "FLUPA UX Day",
+        ...events.flupauxday,
         date: "14-06-2013",
-        website: "http://uxday.flupa.eu",
       },
       {
-        title: "BreizhCamp",
+        ...events.breizhcamp,
         date: "13-06-2013",
-        website: "http://www.breizhcamp.org",
       },
       {
-        title: "Web2Day",
+        ...events.web2day,
         date: "16-05-2013",
-        website: "http://web2day.co",
       },
       {
         title: "MIX-IT",
@@ -322,46 +368,37 @@ const getContent = () => {
         website: "http://www.mix-it.fr",
       },
       {
-        title: "ScrumDay",
+        ...events.scrumday,
         date: "11-04-2013",
-        session: "L'agilité dans la mobilité",
-        website: "http://scrumday.fr",
+        session: sessions.agilemobile,
       },
-
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "15-11-2012",
         organizer: true,
-        session: "L'agilité dans la mobilité",
-        website: "http://www.agilenantes.org",
+        session: sessions.agilemobile,
       },
       {
-        title: "Paris Web",
+        ...events.parisweb,
         date: "18-10-2012",
-        website: "http://www.paris-web.fr",
       },
       {
-        title: "JUG SummerCamp",
+        ...events.jugsummercamp,
         date: "14-09-2012",
-        website: "http://www.jugsummercamp.org",
       },
       {
-        title: "Devoxx France",
+        ...events.devoxx,
         date: "18-04-2012",
-        website: "http://www.devoxx.fr",
       },
       {
-        title: "ScrumDay",
+        ...events.scrumday,
         date: "27-03-2012",
-        session: "Lego4Scrum",
-        website: "http://scrumday.fr",
+        session: sessions.lego4scrum,
       },
-
       {
-        title: "Agile Tour Nantes",
+        ...events.agiletournantes,
         date: "13-04-2011",
         organizer: true,
-        website: "http://www.agilenantes.org",
       },
     ],
   }
