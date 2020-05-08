@@ -1,7 +1,7 @@
 const { getVersion } = require("./contents/content-version")
 const { getSkills } = require("./contents/content-skills")
 const { getTechnicalSkills } = require("./contents/content-technical-skills")
-const { getEducation } = require("./contents/content-education")
+const { getEducations } = require("./contents/content-educations")
 const { getWorkExperience } = require("./contents/content-work-experience")
 const { getEvents } = require("./contents/content-events")
 
@@ -12,7 +12,12 @@ exports.handler = (event, context, callback) => {
     lastname: "Berthelot",
     skillsSection: getSkills(),
     technicalSkillsSection: getTechnicalSkills(),
-    educationSection: getEducation(),
+    educationSection: {
+      title: "Formations",
+      description:
+        "Mon objectif c'est de faire au minimum 2 formations par an.",
+      educations: getEducations(),
+    },
     workExperienceSection: getWorkExperience(),
     eventsSection: getEvents(),
   }
