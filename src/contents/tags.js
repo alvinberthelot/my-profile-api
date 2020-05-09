@@ -1,131 +1,135 @@
 const tags = {
   agile: {
-    name: "Agile",
+    wordings: { fr: "Agile" },
   },
   android: {
-    name: "Android",
+    wordings: { fr: "Android" },
   },
   angular: {
-    name: "Angular",
+    wordings: { fr: "Angular" },
   },
   angularjs: {
-    name: "Angular JS",
+    wordings: { fr: "Angular JS" },
   },
   api: {
-    name: "API",
+    wordings: { fr: "API" },
   },
   backend: {
-    name: "Back-end",
+    wordings: { fr: "Back-end" },
   },
   bootstrap: {
-    name: "Bootstrap",
+    wordings: { fr: "Bootstrap" },
   },
   css: {
-    name: "CSS3",
+    wordings: { fr: "CSS3" },
   },
   ddd: {
-    name: "DDD",
+    wordings: { fr: "DDD" },
   },
   django: {
-    name: "Django",
+    wordings: { fr: "Django" },
   },
   docker: {
-    name: "Docker",
+    wordings: { fr: "Docker" },
   },
   express: {
-    name: "Express",
+    wordings: { fr: "Express" },
   },
   fp: {
-    name: "Programmation fonctionnelle",
+    wordings: { fr: "Programmation fonctionnelle" },
   },
-  firebsae: {
-    name: "Firebase",
+  firebase: {
+    wordings: { fr: "Firebase" },
   },
   frontend: {
-    name: "Front-end",
+    wordings: { fr: "Front-end" },
   },
   frp: {
-    name: "Programmation réactive fonctionnelle",
+    wordings: { fr: "Programmation réactive fonctionnelle" },
   },
   git: {
-    name: "Git",
+    wordings: { fr: "Git" },
   },
   gulp: {
-    name: "Gulp",
+    wordings: { fr: "Gulp" },
   },
   html: {
-    name: "HTML5",
+    wordings: { fr: "HTML5" },
   },
   hybrid: {
-    name: "Application mobile hybride",
+    wordings: { fr: "Application mobile hybride" },
   },
   industrialization: {
-    name: "Industrialisation",
+    wordings: { fr: "Industrialisation" },
   },
   ionic: {
-    name: "Ionic",
+    wordings: { fr: "Ionic" },
   },
   ios: {
-    name: "iOS",
+    wordings: { fr: "iOS" },
   },
   java: {
-    name: "Java",
+    wordings: { fr: "Java" },
   },
   javaee: {
-    name: "Java EE",
+    wordings: { fr: "Java EE" },
   },
   javascript: {
-    name: "JavaScript",
+    wordings: { fr: "JavaScript" },
   },
   jenkins: {
-    name: "JavaScript",
+    wordings: { fr: "JavaScript" },
   },
   lodash: {
-    name: "Lodash",
+    wordings: { fr: "Lodash" },
   },
   ml: {
-    name: "ML",
+    wordings: { fr: "ML" },
   },
   ngrx: {
-    name: "ngRx",
+    wordings: { fr: "ngRx" },
   },
   neo4j: {
-    name: "Neo4j",
+    wordings: { fr: "Neo4j" },
   },
   nodejs: {
-    name: "Node.js",
+    wordings: { fr: "Node.js" },
   },
   python: {
-    name: "Python",
+    wordings: { fr: "Python" },
   },
   rxjs: {
-    name: "RxJS",
+    wordings: { fr: "RxJS" },
   },
   scrum: {
-    name: "Scrum",
+    wordings: { fr: "Scrum" },
   },
   sass: {
-    name: "Sass",
+    wordings: { fr: "Sass" },
   },
   security: {
-    name: "Sécurité",
+    wordings: { fr: "Sécurité" },
   },
   testcafe: {
-    name: "TestCafe",
+    wordings: { fr: "TestCafe" },
   },
   travis: {
-    name: "Travis",
+    wordings: { fr: "Travis" },
   },
   typescript: {
-    name: "TypeScript",
+    wordings: { fr: "TypeScript" },
   },
   verdaccio: {
-    name: "Verdaccio",
+    wordings: { fr: "Verdaccio" },
   },
   web: {
-    name: "Web",
+    wordings: { fr: "Web" },
   },
   webpack: {
-    name: "webpack",
+    wordings: { fr: "webpack" },
   },
+}
+
+module.exports = {
+  tags,
 }

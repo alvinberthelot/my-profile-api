@@ -1,5 +1,7 @@
+const { tags } = require("./tags")
+
 const getContent = () => {
-  const content = [
+  const experiences = [
     {
       company: "CBP",
       dateBegin: "23-04-2018",
@@ -68,7 +70,7 @@ const getContent = () => {
         "javascript",
         "angular",
         "bootstrap",
-        "node.js",
+        "nodejs",
         "html",
         "css",
         "sass",
@@ -92,7 +94,7 @@ const getContent = () => {
         "Conception des supports pédagogiques",
         "Interventions théoriques et pratiques auprès des étudiants",
       ],
-      tags: ["javascript", "node.js", "fp", "lodash"],
+      tags: ["javascript", "nodejs", "fp", "lodash"],
       repository: null,
       downloads: null,
     },
@@ -172,33 +174,6 @@ const getContent = () => {
     },
 
     {
-      company: "LIST'N",
-      dateBegin: "01-11-2015",
-      dateEnd: "31-05-2016",
-      place: "Nantes",
-      title: "Développeur mobile sénior",
-      description:
-        "Chargé de projet et développeur pour la réalisation d’une application mobile de réseau social musical",
-      tasks: [
-        "Réalisation d'une application mobile hybride (Ionic) utilisant les API publiques Facebook, Spotify et utilisant Firebase comme back-end spécifique",
-        "Distribution des applications mobiles sur les stores Google Play et App Store",
-      ],
-      tags: [
-        "html",
-        "css",
-        "sass",
-        "angularjs",
-        "ionic",
-        "android",
-        "ios",
-        "api",
-        "firebase",
-      ],
-      repository: null,
-      downloads: null,
-    },
-
-    {
       company: "Intuitive Robots",
       dateBegin: "01-03-2016",
       dateEnd: "31-05-2016",
@@ -252,15 +227,28 @@ const getContent = () => {
     {
       company: "LIST’N",
       dateBegin: "01-11-2015",
-      dateEnd: "31-12-2015",
+      dateEnd: "31-05-2016",
       place: "Nantes",
-      title: "Consultant mobile",
+      title: "Consultant et développeur mobile sénior",
       description:
-        "Consultant pour une étude technique sur la réalisation d’une application mobile de réseau social musical",
+        "Consultant pour une étude technique sur la réalisation d’une application mobile de réseau social musical, puis chargé de projet et développeur pour la réalisation",
       tasks: [
         "Réalisation d'une étude technique sur la faisabilité d'une application mobile de réseau social musical utilisant des API publiques : Facebook, Spotify",
+        "Réalisation d'une application mobile hybride (Ionic) utilisant les API publiques Facebook, Spotify et utilisant Firebase comme back-end spécifique",
+        "Distribution des applications mobiles sur les stores Google Play et App Store",
       ],
-      tags: ["ionic", "hybrid", "api", "firebase"],
+      tags: [
+        "html",
+        "css",
+        "sass",
+        "angularjs",
+        "ionic",
+        "hybrid",
+        "android",
+        "ios",
+        "api",
+        "firebase",
+      ],
       repository: null,
       downloads: null,
     },
@@ -282,6 +270,17 @@ const getContent = () => {
       downloads: null,
     },
   ]
+
+  const content = experiences.map((experience) => {
+    return {
+      ...experience,
+      tags: experience.tags.map((tag) => ({
+        tag,
+        wording: tags[tag] ? tags[tag].wordings.fr : "oups",
+      })),
+    }
+  })
+
   return content
 }
 
