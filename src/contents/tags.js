@@ -9,10 +9,13 @@ const tags = {
     wordings: { fr: "Angular" },
   },
   angularjs: {
-    wordings: { fr: "Angular JS" },
+    wordings: { fr: "AngularJS" },
   },
   api: {
     wordings: { fr: "API" },
+  },
+  awd: {
+    wordings: { fr: "Adaptive Web Design" },
   },
   backend: {
     wordings: { fr: "Back-end" },
@@ -20,8 +23,23 @@ const tags = {
   bootstrap: {
     wordings: { fr: "Bootstrap" },
   },
+  ci: {
+    wordings: { fr: "Intégration continue" },
+  },
   css: {
+    wordings: { fr: "CSS" },
+  },
+  css3: {
     wordings: { fr: "CSS3" },
+  },
+  cvs: {
+    wordings: { fr: "CVS" },
+  },
+  database: {
+    wordings: { fr: "Base de données" },
+  },
+  dbaas: {
+    wordings: { fr: "DBaaS" },
   },
   ddd: {
     wordings: { fr: "DDD" },
@@ -54,6 +72,9 @@ const tags = {
     wordings: { fr: "Gulp" },
   },
   html: {
+    wordings: { fr: "HTML" },
+  },
+  html5: {
     wordings: { fr: "HTML5" },
   },
   hybrid: {
@@ -80,11 +101,26 @@ const tags = {
   jenkins: {
     wordings: { fr: "JavaScript" },
   },
+  jquery: {
+    wordings: { fr: "jQuery" },
+  },
   lodash: {
     wordings: { fr: "Lodash" },
   },
   ml: {
     wordings: { fr: "ML" },
+  },
+  mobile: {
+    wordings: { fr: "Mobile" },
+  },
+  mongodb: {
+    wordings: { fr: "MongoDB" },
+  },
+  mongoose: {
+    wordings: { fr: "Mongoose" },
+  },
+  mysql: {
+    wordings: { fr: "MySQL" },
   },
   ngrx: {
     wordings: { fr: "ngRx" },
@@ -95,20 +131,50 @@ const tags = {
   nodejs: {
     wordings: { fr: "Node.js" },
   },
+  nosql: {
+    wordings: { fr: "NoSQL" },
+  },
+  oracle: {
+    wordings: { fr: "Oracle" },
+  },
+  passport: {
+    wordings: { fr: "Passport" },
+  },
+  phonegap: {
+    wordings: { fr: "PhoneGap" },
+  },
+  postgresql: {
+    wordings: { fr: "PostgreSQL" },
+  },
   python: {
     wordings: { fr: "Python" },
+  },
+  pwa: {
+    wordings: { fr: "Progressive Web Apps" },
   },
   rxjs: {
     wordings: { fr: "RxJS" },
   },
-  scrum: {
-    wordings: { fr: "Scrum" },
+  rwd: {
+    wordings: { fr: "Responsive Web Design" },
   },
   sass: {
     wordings: { fr: "Sass" },
   },
+  scrum: {
+    wordings: { fr: "Scrum" },
+  },
   security: {
     wordings: { fr: "Sécurité" },
+  },
+  sql: {
+    wordings: { fr: "SQL" },
+  },
+  sonar: {
+    wordings: { fr: "Sonar" },
+  },
+  svn: {
+    wordings: { fr: "SVN" },
   },
   testcafe: {
     wordings: { fr: "TestCafe" },
@@ -122,6 +188,12 @@ const tags = {
   verdaccio: {
     wordings: { fr: "Verdaccio" },
   },
+  versionning: {
+    wordings: { fr: "Versionning" },
+  },
+  virtualization: {
+    wordings: { fr: "Virtualisation" },
+  },
   web: {
     wordings: { fr: "Web" },
   },
@@ -130,6 +202,14 @@ const tags = {
   },
 }
 
+const getTagLabel = (key, language = "fr") => {
+  const tag = tags[key]
+  if (!tag) {
+    throw new Error(`Tag ${key} is unknown`)
+  }
+  return tag.wordings[language]
+}
+
 module.exports = {
-  tags,
+  getTagLabel,
 }

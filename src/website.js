@@ -11,7 +11,12 @@ exports.handler = (event, context, callback) => {
     firstname: "Alvin",
     lastname: "Berthelot",
     skillsSection: getSkills(),
-    technicalSkillsSection: getTechnicalSkills(),
+    technicalSkillsSection: {
+      title: "Environnements techniques",
+      description:
+        "Des connaissances larges sur les principales technologies autour de l'industrialisation web.",
+      aggregates: getTechnicalSkills(),
+    },
     educationSection: {
       title: "Formations",
       description:
