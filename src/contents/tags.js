@@ -23,6 +23,12 @@ const tags = {
   bootstrap: {
     wordings: { fr: "Bootstrap" },
   },
+  build: {
+    wordings: { fr: "Build" },
+  },
+  chai: {
+    wordings: { fr: "Chai" },
+  },
   ci: {
     wordings: { fr: "Intégration continue" },
   },
@@ -43,6 +49,9 @@ const tags = {
   },
   ddd: {
     wordings: { fr: "DDD" },
+  },
+  deploy: {
+    wordings: { fr: "Déploiement" },
   },
   django: {
     wordings: { fr: "Django" },
@@ -68,6 +77,9 @@ const tags = {
   git: {
     wordings: { fr: "Git" },
   },
+  grunt: {
+    wordings: { fr: "Grunt" },
+  },
   gulp: {
     wordings: { fr: "Gulp" },
   },
@@ -89,6 +101,9 @@ const tags = {
   ios: {
     wordings: { fr: "iOS" },
   },
+  jasmine: {
+    wordings: { fr: "Jasmine" },
+  },
   java: {
     wordings: { fr: "Java" },
   },
@@ -99,7 +114,10 @@ const tags = {
     wordings: { fr: "JavaScript" },
   },
   jenkins: {
-    wordings: { fr: "JavaScript" },
+    wordings: { fr: "Jenkins" },
+  },
+  jest: {
+    wordings: { fr: "Jest" },
   },
   jquery: {
     wordings: { fr: "jQuery" },
@@ -107,11 +125,17 @@ const tags = {
   lodash: {
     wordings: { fr: "Lodash" },
   },
+  metrics: {
+    wordings: { fr: "Métriques" },
+  },
   ml: {
     wordings: { fr: "ML" },
   },
   mobile: {
     wordings: { fr: "Mobile" },
+  },
+  mocha: {
+    wordings: { fr: "Mocha" },
   },
   mongodb: {
     wordings: { fr: "MongoDB" },
@@ -134,6 +158,9 @@ const tags = {
   nosql: {
     wordings: { fr: "NoSQL" },
   },
+  npm: {
+    wordings: { fr: "npm" },
+  },
   oracle: {
     wordings: { fr: "Oracle" },
   },
@@ -152,6 +179,9 @@ const tags = {
   pwa: {
     wordings: { fr: "Progressive Web Apps" },
   },
+  quality: {
+    wordings: { fr: "Qualité" },
+  },
   rxjs: {
     wordings: { fr: "RxJS" },
   },
@@ -167,6 +197,9 @@ const tags = {
   security: {
     wordings: { fr: "Sécurité" },
   },
+  spa: {
+    wordings: { fr: "SPA" },
+  },
   sql: {
     wordings: { fr: "SQL" },
   },
@@ -178,6 +211,9 @@ const tags = {
   },
   testcafe: {
     wordings: { fr: "TestCafe" },
+  },
+  tests: {
+    wordings: { fr: "Tests" },
   },
   travis: {
     wordings: { fr: "Travis" },

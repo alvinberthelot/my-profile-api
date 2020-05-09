@@ -1,56 +1,149 @@
-const levels = {
-  backend: {
-    api: {},
-    python: {
-      django: [],
-      ml: [],
-    },
-    database: {
-      nosql: ["neo4j", "mongodb"],
-      sql: ["mysql", "postgresql", "oracle"],
-      dbaas: ["firebase"],
-    },
-    java: {
-      javaee: [],
-    },
-    nodejs: {
-      express: ["passport", "mongoose"],
-    },
+const levels = [
+  {
+    key: "frontend",
+    values: [
+      {
+        key: "web",
+        values: [
+          {
+            key: "html",
+            values: ["html5", "awd", "rwd", "pwa"],
+          },
+          {
+            key: "css",
+            values: ["css3", "sass", "bootstrap"],
+          },
+          {
+            key: "javascript",
+            values: ["jquery", "lodash"],
+          },
+        ],
+      },
+
+      {
+        key: "spa",
+        values: [
+          {
+            key: "typescript",
+            values: ["angular", "ngrx"],
+          },
+          {
+            key: "javascript",
+            values: ["angularjs"],
+          },
+        ],
+      },
+
+      {
+        key: "mobile",
+        values: [
+          {
+            key: "hybrid",
+            values: ["ionic", "phonegap"],
+          },
+          {
+            key: "android",
+            values: [],
+          },
+          {
+            key: "ios",
+            values: [],
+          },
+        ],
+      },
+    ],
   },
-  frontend: {
-    web: {
-      html: ["html5", "awd", "rwd", "pwa"],
-      css: ["css3", "sass", "bootstrap"],
-      javascript: ["angularjs"],
-      typescript: ["angular", "ngrx"],
-    },
-    mobile: {
-      android: [],
-      hybrid: ["ionic", "phonegap"],
-      ios: [],
-    },
+
+  {
+    key: "backend",
+    values: [
+      {
+        key: "nodejs",
+        values: [
+          {
+            key: "express",
+            values: ["passport", "mongoose"],
+          },
+        ],
+      },
+      {
+        key: "javaee",
+        values: [
+          {
+            key: "javaee",
+            values: [],
+          },
+        ],
+      },
+      {
+        key: "database",
+        values: [
+          {
+            key: "nosql",
+            values: ["neo4j", "mongodb"],
+          },
+          {
+            key: "sql",
+            values: ["mysql", "postgresql", "oracle"],
+          },
+          {
+            key: "dbaas",
+            values: ["firebase"],
+          },
+        ],
+      },
+    ],
   },
-  industrialization: {
-    ci: {
-      jenkins: [],
-      travis: [],
-      verdaccio: [],
-    },
-    versionning: {
-      cvs: [],
-      git: [],
-      svn: [],
-    },
-    virtualization: {
-      docker: [],
-    },
+
+  {
+    key: "industrialization",
+    values: [
+      {
+        key: "tests",
+        values: [
+          {
+            key: "javascript",
+            values: ["jest", "mocha", "chai", "jasmine", "testcafe"],
+          },
+        ],
+      },
+      {
+        key: "deploy",
+        values: [
+          {
+            key: "build",
+            values: ["webpack", "gulp", "grunt", "npm", "verdaccio"],
+          },
+        ],
+      },
+      {
+        key: "quality",
+        values: [
+          {
+            key: "versionning",
+            values: ["git", "svn", "cvs"],
+          },
+          {
+            key: "ci",
+            values: ["jenkins", "travis"],
+          },
+          {
+            key: "metrics",
+            values: ["sonar"],
+          },
+          {
+            key: "virtualization",
+            values: ["docker"],
+          },
+        ],
+      },
+    ],
   },
-}
+]
 
 // const unknown = ["agile", "ddd", "fp", "frp"]
 // scrum
 // security
-// lodash
 // rxjs
 // testcafe
 // webpack
