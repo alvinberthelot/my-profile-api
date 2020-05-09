@@ -18,7 +18,7 @@ const getContent = () => {
     {
       title: "Formation DDD(Domain Driven Design)",
       date: "03-12-2018",
-      tags: ["DDD"],
+      tags: ["ddd"],
     },
     {
       title: "Formation Angular avancé",
@@ -41,12 +41,12 @@ const getContent = () => {
     {
       title: "Formation GraphQL",
       date: "16-11-2017",
-      tags: ["web", "API", "javascript", "frontend", "backend"],
+      tags: ["web", "api", "javascript", "frontend", "backend"],
     },
     {
       title: "Formation Machine Learning",
       date: "08-11-2017",
-      tags: ["ML", "python", "backend"],
+      tags: ["ml", "python", "backend"],
     },
     {
       title: "Formation sécurité pour les applications web",
