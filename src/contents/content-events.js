@@ -37,7 +37,7 @@ const events = {
   },
   flupauxday: {
     title: "FLUPA UX Day",
-    website: "http://uxday.flupa.eu",
+    website: "https://uxdays.eu",
   },
   scrumday: {
     title: "ScrumDay",
