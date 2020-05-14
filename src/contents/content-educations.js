@@ -16,7 +16,7 @@ const getContent = () => {
       tags: [],
     },
     {
-      title: "Formation DDD(Domain Driven Design)",
+      title: "Formation DDD (Domain Driven Design)",
       date: "03-12-2018",
       tags: ["ddd"],
     },
