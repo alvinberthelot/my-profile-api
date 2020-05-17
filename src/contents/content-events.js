@@ -69,32 +69,88 @@ const events = {
 }
 
 const sessions = {
-  ideatomarket: {
-    title: "De l'idée au marché ... ou pas !",
-  },
-  functionalfornewbies: {
-    title: "La programmation fonctionnelle (en JavaScript) pour les nuls",
-  },
-  letssketchtogether: {
-    title: "Let's sketch together",
-  },
-  jstests: {
-    title: "Les tests en JavaScript",
-  },
-  phaserjs: {
-    title: "Réaliser un jeu avec PhaserJS",
+  agilemobile: {
+    title: "L'agilité dans la mobilité",
+    type: "conference",
   },
   bootstrass: {
     title: "Sass, pratique toute de suite",
+    type: "workshop",
+    description: `
+      Sass est devenu en peu de temps le pré-processeur CSS le plus populaire parmi les webdesigners et les développeurs front-end.
+      Rien d’étonnant à cela lorsque l’on voit ses fonctionnalités et son écosystème qui permettent de faciliter grandement le développement et la maintenance de feuilles de styles CSS.
+      Vous ne l’utilisez pas encore ?! Ou vous n’utilisez que les notions élémentaires …
+      Plus pour longtemps, car cet atelier vous apprendra à utiliser Sass, de manière progressive, pour tirer pleinement profit de ses possibilités.
+    `,
+    toOrganizers: `
+      Une initiation step by step du pré-processeur Sass de "je ne sais pas ce que c'est" à "je vais pouvoir l'utiliser demain au boulot sans soucis".
+      Bref l'initiation accélérée que j'aurai aimé avoir, plutôt que de faire la veille tout seul dans mon coin.
+    `,
+    resources: [
+      {
+        url:
+          "https://www.webyousoon.com/resources/bootstrass/Sass, pratique tout de suite.pdf",
+        type: "pdf",
+      },
+    ],
   },
   diywebgame: {
     title: "DIY une console de jeux web",
+    type: "conference",
+  },
+  functionalfornewbies: {
+    title: "La programmation fonctionnelle (en JavaScript) pour les nuls",
+    type: "workshop",
   },
   goodtoolscss: {
     title: "Les bons outils CSS font les bons ouvriers du web",
+    type: "conference",
+    description: `
+      Le CSS est un pilier de la programmation Web et son intérêt n’est plus à justifier. Pourtant il ne suscite pas franchement l’enthousiasme parmi de nombreux développeurs. Cela se traduit généralement par des développements “à défaut” pour en arriver à des feuilles de styles chaotiques lors de la maintenance.
+      Dans cette session, voyons pourquoi il est temps de s’y intéresser sérieusement et surtout comment reprendre le contrôle d’une production CSS de qualité et maîtrisée grâce à un outillage adapté.
+    `,
   },
-  agilemobile: {
-    title: "L'agilité dans la mobilité",
+  ideatomarket: {
+    title: "De l'idée au marché ... ou pas !",
+    type: "conference",
+    resources: [
+      {
+        url:
+          "https://www.webyousoon.com/resources/ideatomarket/De l'idée au marché ... ou pas !.V1.pdf",
+        type: "pdf",
+      },
+    ],
+  },
+  jstests: {
+    title: "Les tests en JavaScript",
+    type: "conference",
+    resources: [
+      {
+        url: "https://www.webyousoon.com/resources/jstests/js-testing.pdf",
+        type: "pdf",
+      },
+    ],
+  },
+  letssketchtogether: {
+    title: "Let's sketch together",
+    type: "workshop",
+    resources: [
+      {
+        url:
+          "https://www.webyousoon.com/resources/letssketchtogether/Let's sketch together.pdf",
+        type: "pdf",
+      },
+    ],
+  },
+  phaserjs: {
+    title: "Réaliser un jeu avec PhaserJS",
+    type: "workshop",
+    resources: [
+      {
+        url: "https://www.webyousoon.com/resources/phaserjs/Phaser.pdf",
+        type: "pdf",
+      },
+    ],
   },
 }
 
