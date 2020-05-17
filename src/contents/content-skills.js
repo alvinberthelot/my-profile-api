@@ -2,7 +2,7 @@ const getContent = () => {
   const content = {
     title: "Compétences",
     description:
-      "Je propose des services dans toutes les étapes clés pour réaliser des applications web et mobiles de qualité.",
+      "Contactez-moi si vous avez un projet, un besoin de renfort dans votre équipe ou une demande de formation en lien avec mes compétences.",
     skills: [
       {
         title: "Tech lead / développeur sénior",
