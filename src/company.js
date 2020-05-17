@@ -10,7 +10,10 @@ exports.handler = (event, context, callback) => {
     },
     email: "contact@webyousoon.com",
     phone: "0642135213",
-    website: "webyousoon.com",
+    website: {
+      tinyUrl: "webyousoon.com",
+      completeUrl: "https://www.webyousoon.com",
+    },
     siren: "814553053",
     tva: "FR57814553053",
     rcs: "Nantes 814 553 053",
