@@ -9,7 +9,7 @@ const events = {
   },
   helloworld: {
     title: "Hello World",
-    website: "https://hello-world-conference.github.io/",
+    website: "https://www.hello-world.events/",
   },
   parisweb: {
     title: "Paris Web",
