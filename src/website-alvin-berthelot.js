@@ -1,15 +1,18 @@
 const { getVersion } = require("./contents/content-version")
+const { getBasics } = require("./contents/content-basics")
 const { getSkills } = require("./contents/content-skills")
 const { getTechnicalSkills } = require("./contents/content-technical-skills")
 const { getEducations } = require("./contents/content-educations")
 const { getWorkExperiences } = require("./contents/content-work-experiences")
 const { getEvents } = require("./contents/content-events")
 
+const basics = getBasics()
+
 exports.handler = (event, context, callback) => {
   content = {
     version: getVersion(),
-    firstname: "Alvin",
-    lastname: "Berthelot",
+    firstname: basics.firstname,
+    lastname: basics.lastname,
     skillsSection: getSkills(),
     technicalSkillsSection: {
       title: "Environnements techniques",
