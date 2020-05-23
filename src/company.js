@@ -1,7 +1,7 @@
 exports.handler = (event, context, callback) => {
   content = {
     name: "Webyousoon",
-    legalName: "Webyousoon SARL",
+    legalName: "SARL Webyousoon",
     address: {
       street: "61 avenue Lt Lavenne Montoise",
       postcode: "44000",
