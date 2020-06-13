@@ -2,32 +2,32 @@ const getContent = () => {
   const content = [
     {
       title: "Formation continue en anglais",
-      date: "01-01-2020",
+      date: "2020-01-01",
       tags: [],
     },
     {
       title: "Formation Node.js avancé",
-      date: "17-09-2019",
+      date: "2019-09-17",
       tags: ["web", "nodejs", "javascript", "frontend", "backend"],
     },
     {
       title: "Formation continue en anglais",
-      date: "01-01-2019",
+      date: "2019-01-01",
       tags: [],
     },
     {
       title: "Formation DDD (Domain Driven Design)",
-      date: "03-12-2018",
+      date: "2018-12-03",
       tags: ["ddd"],
     },
     {
       title: "Formation Angular avancé",
-      date: "25-10-2018",
+      date: "2018-10-25",
       tags: ["web", "angular", "javascript", "typescript", "frontend"],
     },
     {
       title: "Formation webpack",
-      date: "21-02-2018",
+      date: "2018-02-21",
       tags: [
         "web",
         "webpack",
@@ -40,63 +40,63 @@ const getContent = () => {
     },
     {
       title: "Formation GraphQL",
-      date: "16-11-2017",
+      date: "2017-11-16",
       tags: ["web", "api", "javascript", "frontend", "backend"],
     },
     {
       title: "Formation Machine Learning",
-      date: "08-11-2017",
+      date: "2017-11-08",
       tags: ["ml", "python", "backend"],
     },
     {
       title: "Formation sécurité pour les applications web",
-      date: "09-10-2017",
+      date: "2017-10-09",
       tags: ["web", "security", "frontend", "backend"],
     },
     {
       title: "Formation Docker",
-      date: "21-11-2016",
+      date: "2016-11-21",
       tags: ["docker", "industrialization"],
     },
     {
       title: "Formation Angular",
-      date: "19-09-2016",
+      date: "2016-09-19",
       tags: ["web", "angular", "javascript", "typescript", "frontend"],
     },
     {
       title: "Formation Git",
-      date: "27-01-2016",
+      date: "2017-01-27",
       tags: ["git", "industrialization"],
     },
     {
       title: "Certifié Developer Android Apps",
-      date: "01-01-2015",
+      date: "2015-01-01",
       tags: ["java", "android"],
     },
     {
       title: "Certifié ScrumMaster",
-      date: "01-01-2010",
+      date: "2010-01-01",
       tags: ["agile", "scrum"],
     },
     {
       title: "Certifié Sun Developer Web Component 1.4",
-      date: "01-01-2006",
+      date: "2006-01-01",
       tags: ["java", "backend"],
     },
     {
       title: "Certifié Sun Programmer Java 1.4",
-      date: "01-01-2004",
+      date: "2004-01-01",
       tags: ["java", "backend"],
     },
     {
       title: "DESS MAI(Mathématiques Appliquées à l’Informatique)",
-      date: "01-01-2004",
+      date: "2004-01-01",
       tags: [],
     },
     {
       title:
         "Diplôme IMA(Institut de Mathématiques Appliquées) homologué de niveau 1, reconnu niveau ingénieur",
-      date: "01-01-2004",
+      date: "2004-01-01",
       tags: [],
     },
   ]

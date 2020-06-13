@@ -4,7 +4,7 @@ const getContent = () => {
   const experiences = [
     {
       company: "CBP",
-      dateBegin: "23-04-2018",
+      dateBegin: "2018-04-23",
       dateEnd: null,
       place: "Nantes",
       title: "Encadrement et développement Angular",
@@ -33,8 +33,8 @@ const getContent = () => {
 
     {
       company: "Ynov",
-      dateBegin: "01-11-2017",
-      dateEnd: "31-03-2018",
+      dateBegin: "2017-11-01",
+      dateEnd: "2018-03-31",
       place: "Nantes",
       title: "Intervenant pédagogique",
       description:
@@ -55,8 +55,8 @@ const getContent = () => {
 
     {
       company: "DSIA",
-      dateBegin: "01-03-2017",
-      dateEnd: "31-10-2017",
+      dateBegin: "2017-03-01",
+      dateEnd: "2017-10-31",
       place: "Nantes",
       title: "Encadrement technique Angular",
       description:
@@ -84,8 +84,8 @@ const getContent = () => {
 
     {
       company: "Ynov",
-      dateBegin: "01-02-2017",
-      dateEnd: "28-02-2017",
+      dateBegin: "2017-02-01",
+      dateEnd: "2017-02-28",
       place: "Nantes",
       title: "Intervenant pédagogique",
       description:
@@ -101,8 +101,8 @@ const getContent = () => {
 
     {
       company: "WIS (Web Internet School)",
-      dateBegin: "01-01-2017",
-      dateEnd: "31-01-2017",
+      dateBegin: "2017-01-01",
+      dateEnd: "2017-01-31",
       place: "Nantes",
       title: "Intervenant pédagogique",
       description:
@@ -118,8 +118,8 @@ const getContent = () => {
 
     {
       company: null,
-      dateBegin: "01-12-2016",
-      dateEnd: "31-12-2016",
+      dateBegin: "2016-12-01",
+      dateEnd: "2016-12-31",
       place: "Nantes",
       title: "Développeur fullstack sénior",
       description:
@@ -141,8 +141,8 @@ const getContent = () => {
 
     {
       company: "Intuitive Robots",
-      dateBegin: "01-10-2016",
-      dateEnd: "30-11-2016",
+      dateBegin: "2016-10-01",
+      dateEnd: "2016-11-30",
       place: "Nantes",
       title: "Développeur front-end sénior",
       description:
@@ -158,8 +158,8 @@ const getContent = () => {
 
     {
       company: "GE Money Bank",
-      dateBegin: "01-07-2016",
-      dateEnd: "30-10-2016",
+      dateBegin: "2016-07-01",
+      dateEnd: "2016-10-30",
       place: "Nantes",
       title: "Scrum master",
       description:
@@ -175,8 +175,8 @@ const getContent = () => {
 
     {
       company: "Intuitive Robots",
-      dateBegin: "01-03-2016",
-      dateEnd: "31-05-2016",
+      dateBegin: "2016-03-01",
+      dateEnd: "2016-05-31",
       place: "Nantes",
       title: "Développeur front-end sénior",
       description:
@@ -192,8 +192,8 @@ const getContent = () => {
 
     {
       company: "WIS (Web Internet School)",
-      dateBegin: "01-01-2016",
-      dateEnd: "31-03-2016",
+      dateBegin: "2016-01-01",
+      dateEnd: "2016-03-31",
       place: "Nantes",
       title: "Intervenant pédagogique",
       description:
@@ -209,8 +209,8 @@ const getContent = () => {
 
     {
       company: "Hop-Cube",
-      dateBegin: "01-02-2016",
-      dateEnd: "28-02-2016",
+      dateBegin: "2016-02-01",
+      dateEnd: "2016-02-28",
       place: "Nantes",
       title: "Consultant mobile",
       description:
@@ -226,8 +226,8 @@ const getContent = () => {
 
     {
       company: "LIST’N",
-      dateBegin: "01-11-2015",
-      dateEnd: "31-05-2016",
+      dateBegin: "2015-11-01",
+      dateEnd: "2016-05-31",
       place: "Nantes",
       title: "Consultant et développeur mobile sénior",
       description:
@@ -255,8 +255,8 @@ const getContent = () => {
 
     {
       company: "Intuitive Robots",
-      dateBegin: "01-07-2015",
-      dateEnd: "30-09-2015",
+      dateBegin: "2015-07-01",
+      dateEnd: "2015-09-30",
       place: "Nantes",
       title: "Développeur front-end sénior",
       description:
