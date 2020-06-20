@@ -269,6 +269,452 @@ const getContent = () => {
       repository: null,
       downloads: null,
     },
+
+    {
+      company: "Meeschaert",
+      dateBegin: "2015-02-01",
+      dateEnd: "2015-02-28",
+      place: "Nantes - Paris",
+      title: "Consultant mobile",
+      description:
+        "Consultant fonctionnel pour une application mobile native iOS et Android pour la gestion des portefeuilles bancaires pour les clients Meeschaert",
+      tasks: [
+        "Recueil des besoins, mise en place d'ateliers de conception ergonomique avec les conseillers clients",
+        "Rédaction des spécifications fonctionnelles",
+      ],
+      tags: ["Android", "iOS"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Agglomération de La Rochelle",
+      dateBegin: "2014-06-01",
+      dateEnd: "2015-02-01",
+      place: "Nantes - La Rochelle",
+      title: "Chef de projet technique",
+      description:
+        "Chef de projet technique pour la refonte RWD du portail d'agglomération de La Rochelle",
+      tasks: [
+        "Recueil des besoins, mise en place d'ateliers de conception ergonomique",
+        "Encadrement des développeurs",
+        "Développement web RWD",
+      ],
+      tags: [
+        "Java EE",
+        "Liferay",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Grunt",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "AFD (Agence Française de Développement)",
+      dateBegin: "2014-11-01",
+      dateEnd: "2014-11-30",
+      place: "Paris",
+      title: "Consultant Agile",
+      description:
+        "Consultant dans le cadre de la mise ne place d'une organisation Agile au sein du département informatique de l'AFD",
+      tasks: [
+        "Interview des collaborateurs de l'AFD",
+        "Rédaction des préconisations pour une mise en place de l'agilité au sein de l'organisation",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "CSOEC (Conseil Supérieur de l'Ordre des Experts Comptables)",
+      dateBegin: "2014-05-01",
+      dateEnd: "2014-05-31",
+      place: "Nantes - Paris",
+      title: "Consultant mobile",
+      description:
+        "Consultant technique et fonctionnel pour le démarrage de la réalisation d'applications mobiles natives Android et iOS",
+      tasks: [
+        "Rédaction des spécifications fonctionelles",
+        "Mise en place des canaux de distribution",
+        "Rédaction des préconisations techniques mobiles",
+      ],
+      tags: ["Android", "iOS", "HTML5", "CSS3", "Sugar CRM"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "AssurOnline",
+      dateBegin: "2014-04-01",
+      dateEnd: "2014-04-30",
+      place: "Nantes",
+      title: "Consultant mobile",
+      description:
+        "Consultant technique et fonctionnel pour le démarrage de la réalisation d'applications mobiles natives Android et iOS",
+      tasks: [
+        "Mise en place des canaux de distribution",
+        "Rédaction des spécifications fonctionelles",
+      ],
+      tags: ["Android", "iOS"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "EDF",
+      dateBegin: "2014-02-01",
+      dateEnd: "2014-03-31",
+      place: "Nantes",
+      title: "Chef de projet technique",
+      description:
+        "Chef de projet technique pour une application native pour tablettes iOS et Android à destination des partenaires EDF",
+      tasks: [
+        "Recueil des besoins, mise en place d'ateliers de conception ergonomique avec les partenaires",
+        "Rédaction des spécifications fonctionnelles",
+        "Mise en place des canaux de distribution",
+        "Suivi du déroulement du projet",
+      ],
+      tags: ["Android", "iOS", "Ruby on Rails", "Active Admin", "Heroku"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "En continu chez divers clients",
+      dateBegin: "2013-11-01",
+      dateEnd: "2015-02-28",
+      title: "Formateur web",
+      description: "Formateur sur les technologies web front-end",
+      tasks: [
+        "Rédaction des supports de formation et des exercices",
+        "Déroulement des formations",
+      ],
+      tags: ["HTML5", "CSS", "Sass", "JavaScript", "Node.js", "Grunt", "Gulp"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Ippon technologies",
+      dateBegin: "2013-05-01",
+      dateEnd: "2013-09-30",
+      description:
+        "Consultant technique et animation d’ateliers pour la mise en place d’une capitalisation technique web",
+      title: "Facilitateur capitalisation technique web",
+      tasks: [
+        "Création des ateliers de développement",
+        "Déroulement des ateliers techniques",
+      ],
+      tags: [
+        "HTML5",
+        "CSS",
+        "Sass",
+        "JavaScript",
+        "AngularJS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Ippon technologies",
+      dateBegin: "2012-07-01",
+      dateEnd: "2013-09-30",
+      place: "Nantes",
+      title: "Chef de projet technique",
+      description:
+        "Chef de projet technique pour la refonte de 2 CMS sous une approche RWD",
+      tasks: [
+        "Facilitation et mise en place d'ateliers de conception ergonomique RWD",
+        "Rédaction des spécifications fonctionnelles",
+        "Développement HTML, CSS, JavaScript",
+      ],
+      tags: [
+        "WordPress",
+        "HTML5",
+        "CSS",
+        "Sass",
+        "JavaScript",
+        "Node.js",
+        "Grunt",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Alljudo",
+      dateBegin: "2012-04-01",
+      dateEnd: "2012-10-31",
+      place: "Nantes",
+      title: "Chef de projet technique",
+      description:
+        "Chef de projet technique d'une application mobile hybride d'actualités multimédia sur le judo pour smartphones et tablettes Android et iOS, données administrées par un back-office avec une IHM Web",
+      tasks: [
+        "Rédaction des spécifications fonctionnelles",
+        "Développement web (HTML, CSS, JavaScript) pour les applications hybrides (PhoneGap) et pour l’interface back-office (web Java EE)",
+        "Mise en place des canaux de distribution",
+      ],
+      tags: [
+        "PhoneGap",
+        "HTML5",
+        "CSS",
+        "Sass",
+        "JavaScript",
+        "Knockout.js",
+        "application Java EE(Tomcat / MySQL)",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "DGFiP (Direction Générale des Finances Publiques)",
+      dateBegin: "2010-07-01",
+      dateEnd: "2012-02-31",
+      place: "Nantes",
+      title: "Responsable d’applications Java EE",
+      description:
+        "Responsable d’applications dans une TMA pour un ensemble d’applications liées à la déclaration des taxes pour les entreprises",
+      tasks: [
+        "Analyses d’impact sur les nouvelles demandes métier",
+        "Rédaction des définitions de commande appropriées dans le cadre d’un CCTP",
+        "Estimation des évolutions souhaitées, conception, mise en oeuvre et suivi des plannings de tests",
+        "Organisation des déploiements, des recettes internes, des livraisons client et suivi des anomalies",
+        "Encadrement des développeurs et suivi des avancements",
+      ],
+      tags: [
+        "JBoss",
+        "Hibernate",
+        "Struts",
+        "Web services",
+        "Oracle 10g",
+        "SQL Developer",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Orange Business Service",
+      dateBegin: "2010-05-01",
+      dateEnd: "2010-07-31",
+      place: "Nantes",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE dans le cadre d’un projet au forfait, pour une application d’adhésion en ligne dans le cadre des activités de La Poste",
+      tasks: [
+        "Réalisation de développements web / Java EE",
+        "Partage des spécifications / fonctionnalités attendues avec les autres développeurs",
+      ],
+      tags: ["WAS 6.1", "Spring", "Hibernate", "Struts", "Oracle"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company:
+        "CNAMTS (Caisse Nationale de l'Assurance Maladie des Travailleurs Salariés)",
+      dateBegin: "2008-01-01",
+      dateEnd: "2010-04-01",
+      place: "Angers",
+      title: "Responsable d’applications Java EE",
+      description:
+        "Ingénieur études et développement web Java EE puis responsable d’applications dans le cadre du portail Ameli pour les professionnels de santé",
+      tasks: [
+        "Encadrement opérationnel d’une équipe de 4 personnes",
+        "Recueil des besoins métiers et rédaction des spécifications fonctionnelles",
+        "Conception UML et du MCD pour la base de données",
+        "Réalisation des développements et support technique",
+        "Reporting des avancements des évolutions sur des jalons",
+        "Préparation des plans de tests et homologation des évolutions",
+        "Suivi des anomalies",
+        "Suivi technique de la migration du portail existant Oracle Portal vers la solution Weblogic portal",
+      ],
+      tags: [
+        "Oracle Portal",
+        "WebLogic Portal",
+        "Ant",
+        "Struts",
+        "Oracle",
+        "Toad",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "GIE Sesam-Vitale",
+      dateBegin: "2007-06-01",
+      dateEnd: "2007-12-01",
+      place: "Le Mans",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE pour la réalisation d’un module de facturation avec réception des factures et affichage des résultats",
+      tasks: [
+        "Rédaction des spécifications techniques du module de facturation",
+        "Conception UML et du MCD pour la base de données",
+        "Réalisation des développements avec réception des factures (files JMS) et affichage des résultats via une application web Java EE",
+      ],
+      tags: [
+        "EJB (Beans Message) sous WebLogic 9.2",
+        "Application Java EE sous Tomcat 5.x",
+        "Ant",
+        "Struts",
+        "Display tag",
+        "JUnit",
+        "Log4J",
+        "SQL Developer",
+        "Power AMC",
+        "Rational Rose",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Ippon technologies",
+      dateBegin: "2007-01-01",
+      dateEnd: "2007-05-01",
+      place: "Nantes",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE pour la réalisation de portlets de gestion de ressources avec géolocalisation Google Map",
+      tasks: [
+        "Recueil de besoins métiers dans un portail d’entreprise existant (Intranet)",
+        "Réalisation des développements des portlets au sein du portail existant",
+      ],
+      tags: [
+        "Liferay 4.2.1",
+        "AppFuse (Spring, Hibernate, Struts, Ant)",
+        "Extrem Components",
+        "MySQL",
+        "Easy PHP",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Studio Canal",
+      dateBegin: "2005-09-01",
+      dateEnd: "2006-09-01",
+      place: "Paris",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE pour la réalisation d’un module de gestion de royalties pour les utilisateurs internes Studio Canal dans une application Intranet",
+      tasks: [
+        "Conception du MCD pour la réalisation d’une application Internet de vente de matériel cinématographique",
+        "Développement d’une interface de vente front-office et d’une interface de gestion back-office",
+      ],
+      tags: [
+        "Application web Java EE",
+        "EJB",
+        "WSAD 5 : WebSphere 4",
+        "Struts",
+        "Oracle 8.1.6",
+        "Toad",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "1001 Listes",
+      dateBegin: "2005-05-01",
+      dateEnd: "2005-08-01",
+      place: "Paris",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE pour la réalisation d’un module de gestion de prospects",
+      tasks: [
+        "Recueil des besoins métiers pour les utilisateurs internes",
+        "Rédaction des spécifications techniques détaillées",
+        "Réalisation des développements web Java EE",
+      ],
+      tags: [
+        "Application web Java EE",
+        "Resin",
+        "Hibernate",
+        "Sybase",
+        "DbVisualizer",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "INPN (Inventaire National du Patrimoine Naturel)",
+      dateBegin: "2005-01-01",
+      dateEnd: "2005-04-01",
+      place: "Paris",
+      title: "Chargé de projet",
+      description:
+        "Chargé de projet pour la réalisation d’une application back-office de gestion de droits et trafic de visite",
+      tasks: [
+        "Recueil de besoins métiers de l’application",
+        "Rédaction des spécifications techniques (avec UML et MCD) et fonctionnelles détaillées",
+        "Réalisation des développements web Java EE",
+        "Préparation du plan de tests et homologation",
+      ],
+      tags: [
+        "Application web Java EE sous Tomcat",
+        "Struts",
+        "Ant",
+        "Oracle",
+        "Toad",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "MNHN (Muséum National d’Histoire Naturelle)",
+      dateBegin: "2004-10-01",
+      dateEnd: "2004-12-01",
+      place: "Paris",
+      title: "Développeur Java EE",
+      description:
+        "Ingénieur études et développement web Java EE pour implémenter un moteur de recherche sur un portail",
+      tasks: [
+        "Réalisation du développement web Java EE",
+        "Réalisation des développements XML et XSLT pour implémenter un moteur de recherche externe et XML et XSL/FO pour créer des fichiers binaires",
+      ],
+      tags: [
+        "Application web Java EE sous Tomcat",
+        "Struts",
+        "XML",
+        "XSL",
+        "Oracle",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Nexans",
+      dateBegin: "2004-02-01",
+      dateEnd: "2004-08-01",
+      place: "Paris",
+      title: "Chargé de projet",
+      description:
+        "Chargé de projet pour la réalisation d’un module de gestion de brevets dans une application Intranet",
+      tasks: [
+        "Recueil de besoins métiers de l’application",
+        "Rédaction des spécifications techniques (avec UML et MCD) et fonctionnelles détaillées",
+        "Réalisation des développements web Java EE",
+      ],
+      tags: ["Application web Java EE sous Tomcat", "Ant", "Oracle", "Toad"],
+      repository: null,
+      downloads: null,
+    },
   ]
 
   const content = experiences.map((experience) => {
