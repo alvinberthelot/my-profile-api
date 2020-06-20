@@ -1,6 +1,6 @@
-const MAJOR = 0
+const MAJOR = 1
 const MINOR = 0
-const PATCH = 2
+const PATCH = 0
 
 const getContent = () => {
   return `${MAJOR}.${MINOR}.${PATCH}`
