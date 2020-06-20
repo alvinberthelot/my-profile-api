@@ -11,6 +11,9 @@ const tags = {
   angularjs: {
     wordings: { fr: "AngularJS" },
   },
+  ant: {
+    wordings: { fr: "Ant" },
+  },
   api: {
     wordings: { fr: "API" },
   },
@@ -59,6 +62,12 @@ const tags = {
   docker: {
     wordings: { fr: "Docker" },
   },
+  easyphp: {
+    wordings: { fr: "Easy PHP" },
+  },
+  ejb: {
+    wordings: { fr: "EJB" },
+  },
   express: {
     wordings: { fr: "Express" },
   },
@@ -82,6 +91,12 @@ const tags = {
   },
   gulp: {
     wordings: { fr: "Gulp" },
+  },
+  heroku: {
+    wordings: { fr: "Heroku" },
+  },
+  hibernate: {
+    wordings: { fr: "Hibernate" },
   },
   html: {
     wordings: { fr: "HTML" },
@@ -113,6 +128,9 @@ const tags = {
   javascript: {
     wordings: { fr: "JavaScript" },
   },
+  jboss: {
+    wordings: { fr: "JBoss" },
+  },
   jenkins: {
     wordings: { fr: "Jenkins" },
   },
@@ -122,8 +140,20 @@ const tags = {
   jquery: {
     wordings: { fr: "jQuery" },
   },
+  junit: {
+    wordings: { fr: "JUnit" },
+  },
+  knockoutjs: {
+    wordings: { fr: "Knockout.js" },
+  },
+  liferay: {
+    wordings: { fr: "Liferay" },
+  },
   lodash: {
     wordings: { fr: "Lodash" },
+  },
+  log4j: {
+    wordings: { fr: "Log4J" },
   },
   metrics: {
     wordings: { fr: "Métriques" },
@@ -164,6 +194,9 @@ const tags = {
   oracle: {
     wordings: { fr: "Oracle" },
   },
+  oracleportal: {
+    wordings: { fr: "Oracle portal" },
+  },
   passport: {
     wordings: { fr: "Passport" },
   },
@@ -182,8 +215,14 @@ const tags = {
   quality: {
     wordings: { fr: "Qualité" },
   },
+  resin: {
+    wordings: { fr: "Resin" },
+  },
   rxjs: {
     wordings: { fr: "RxJS" },
+  },
+  ror: {
+    wordings: { fr: "Ruby on Rails" },
   },
   rwd: {
     wordings: { fr: "Responsive Web Design" },
@@ -200,20 +239,38 @@ const tags = {
   spa: {
     wordings: { fr: "SPA" },
   },
+  spring: {
+    wordings: { fr: "Spring" },
+  },
   sql: {
     wordings: { fr: "SQL" },
+  },
+  sqldeveloper: {
+    wordings: { fr: "SQL Developer" },
   },
   sonar: {
     wordings: { fr: "Sonar" },
   },
+  struts: {
+    wordings: { fr: "Struts" },
+  },
   svn: {
     wordings: { fr: "SVN" },
+  },
+  sybase: {
+    wordings: { fr: "Sybase" },
   },
   testcafe: {
     wordings: { fr: "TestCafe" },
   },
   tests: {
     wordings: { fr: "Tests" },
+  },
+  toad: {
+    wordings: { fr: "Toad" },
+  },
+  tomcat: {
+    wordings: { fr: "Tomcat" },
   },
   travis: {
     wordings: { fr: "Travis" },
@@ -230,11 +287,35 @@ const tags = {
   virtualization: {
     wordings: { fr: "Virtualisation" },
   },
+  was: {
+    wordings: { fr: "WAS" },
+  },
   web: {
     wordings: { fr: "Web" },
   },
+  weblogic: {
+    wordings: { fr: "WebLogic" },
+  },
+  weblogicportal: {
+    wordings: { fr: "WebLogic Portal" },
+  },
   webpack: {
     wordings: { fr: "webpack" },
+  },
+  webservice: {
+    wordings: { fr: "webpack" },
+  },
+  websphere: {
+    wordings: { fr: "WebSphere" },
+  },
+  wordpress: {
+    wordings: { fr: "WordPress" },
+  },
+  xml: {
+    wordings: { fr: "XML" },
+  },
+  xsl: {
+    wordings: { fr: "XSL" },
   },
 }
 
