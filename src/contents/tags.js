@@ -65,9 +65,6 @@ const tags = {
   easyphp: {
     wordings: { fr: "Easy PHP" },
   },
-  ejb: {
-    wordings: { fr: "EJB" },
-  },
   express: {
     wordings: { fr: "Express" },
   },
@@ -197,6 +194,9 @@ const tags = {
   oracleportal: {
     wordings: { fr: "Oracle portal" },
   },
+  paas: {
+    wordings: { fr: "PaaS" },
+  },
   passport: {
     wordings: { fr: "Passport" },
   },
@@ -287,9 +287,6 @@ const tags = {
   virtualization: {
     wordings: { fr: "Virtualisation" },
   },
-  was: {
-    wordings: { fr: "WAS" },
-  },
   web: {
     wordings: { fr: "Web" },
   },
@@ -300,9 +297,6 @@ const tags = {
     wordings: { fr: "WebLogic Portal" },
   },
   webpack: {
-    wordings: { fr: "webpack" },
-  },
-  webservice: {
     wordings: { fr: "webpack" },
   },
   websphere: {

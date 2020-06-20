@@ -15,7 +15,7 @@ const levels = [
           },
           {
             key: "javascript",
-            values: ["jquery", "lodash"],
+            values: ["rxjs", "lodash", "jquery"],
           },
         ],
       },
@@ -29,7 +29,7 @@ const levels = [
           },
           {
             key: "javascript",
-            values: ["angularjs"],
+            values: ["angularjs", "knockoutjs"],
           },
         ],
       },
@@ -70,8 +70,24 @@ const levels = [
         key: "javaee",
         values: [
           {
+            key: "java",
+            values: ["ant", "junit", "log4j"],
+          },
+          {
             key: "javaee",
-            values: [],
+            values: [
+              "struts",
+              "hibernate",
+              "spring",
+              "tomcat",
+              "jboss",
+              "weblogic",
+              "websphere",
+              "resin",
+              "liferay",
+              "oracleportal",
+              "weblogicportal",
+            ],
           },
         ],
       },
@@ -84,7 +100,14 @@ const levels = [
           },
           {
             key: "sql",
-            values: ["mysql", "postgresql", "oracle"],
+            values: [
+              "mysql",
+              "postgresql",
+              "oracle",
+              "sybase",
+              "sqldeveloper",
+              "toad",
+            ],
           },
           {
             key: "dbaas",
@@ -114,6 +137,14 @@ const levels = [
             key: "build",
             values: ["webpack", "gulp", "grunt", "npm", "verdaccio"],
           },
+          {
+            key: "virtualization",
+            values: ["docker"],
+          },
+          {
+            key: "paas",
+            values: ["heroku"],
+          },
         ],
       },
       {
@@ -131,27 +162,27 @@ const levels = [
             key: "metrics",
             values: ["sonar"],
           },
-          {
-            key: "virtualization",
-            values: ["docker"],
-          },
         ],
       },
     ],
   },
 ]
 
-// const unknown = ["agile", "ddd", "fp", "frp"]
+// agile
+// api
+// ddd
+// django
+// easyphp
+// fp
+// frp
+// ml
+// python
+// ror
 // scrum
 // security
-// rxjs
-// testcafe
-// webpack
-// gulp
-// grunt
-// jest
-// jasmine
-// phonegap
+// wordpress
+// xml
+// xsl
 
 module.exports = {
   levels,
