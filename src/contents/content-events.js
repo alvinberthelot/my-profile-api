@@ -160,6 +160,11 @@ const getContent = () => {
     description: "",
     events: [
       {
+        ...events.helloworld,
+        date: "2020-05-07",
+        organizer: true,
+      },
+      {
         ...events.dotjs,
         date: "2019-12-05",
       },
