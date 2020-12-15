@@ -287,6 +287,9 @@ const tags = {
   virtualization: {
     wordings: { fr: "Virtualisation" },
   },
+  vue3: {
+    wordings: { fr: "Vue 3" },
+  },
   web: {
     wordings: { fr: "Web" },
   },

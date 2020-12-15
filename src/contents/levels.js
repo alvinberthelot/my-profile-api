@@ -25,7 +25,7 @@ const levels = [
         values: [
           {
             key: "typescript",
-            values: ["angular", "ngrx"],
+            values: ["angular", "ngrx", "vue3"],
           },
           {
             key: "javascript",
