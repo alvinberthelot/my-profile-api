@@ -1,6 +1,11 @@
 const getContent = () => {
   const content = [
     {
+      title: "Performances Web",
+      date: "2020-11-04",
+      tags: [],
+    },
+    {
       title: "EventStorming Master Class",
       date: "2020-02-03",
       tags: [],
