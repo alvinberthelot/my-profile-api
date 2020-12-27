@@ -3,9 +3,26 @@ const { getTagLabel } = require("./tags")
 const getContent = () => {
   const experiences = [
     {
+      company: "Pasquier",
+      dateBegin: "2020-11-26",
+      dateEnd: null,
+      place: "Nantes",
+      title: "Industrialisation web",
+      description:
+        "Prestation de conseil et de développement pour l'architecture et l'industrialisation d'applications web avec Vue.js.",
+      tasks: [
+        "Mise en place de l'outillage et de l'industrialisation",
+        "Développement d'applications métier",
+      ],
+      tags: ["typescript", "javascript", "vuejs", "html5", "css3", "git"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
       company: "CBP",
       dateBegin: "2018-04-23",
-      dateEnd: null,
+      dateEnd: "2020-12-11",
       place: "Nantes",
       title: "Encadrement et développement Angular",
       description:

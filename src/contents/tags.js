@@ -290,6 +290,9 @@ const tags = {
   vue3: {
     wordings: { fr: "Vue 3" },
   },
+  vuejs: {
+    wordings: { fr: "Vue.js" },
+  },
   web: {
     wordings: { fr: "Web" },
   },
