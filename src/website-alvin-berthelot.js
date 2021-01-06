@@ -3,7 +3,7 @@ const { getBasics } = require("./contents/content-basics")
 const { getSkills } = require("./contents/content-skills")
 const { getTechnicalSkills } = require("./contents/content-technical-skills")
 const { getEducations } = require("./contents/content-educations")
-const { getExperiences } = require("./contents/content-experiences")
+const { getExperiences } = require("./contents/experiences.content")
 const { getEvents } = require("./contents/content-events")
 
 const basics = getBasics()

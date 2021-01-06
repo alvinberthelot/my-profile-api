@@ -1,5 +1,5 @@
-const { getTagLabel } = require("./tags")
-const { identifier } = require("safe-identifier")
+const { levels } = require("./levels")
+const { mapExperience } = require("./experiences.helper")
 
 const getContent = () => {
   const experiences = [
@@ -705,22 +705,12 @@ const getContent = () => {
     },
   ]
 
-  const content = experiences.map((experience) => {
-    return {
-      ...experience,
-      id: identifier(experience.company + experience.dateBegin),
-      tags: experience.tags
-        ? experience.tags.map((tag) => ({
-            tag,
-            wording: getTagLabel(tag),
-          }))
-        : [],
-    }
-  })
-
-  return content
+  return experiences
 }
 
+const getExperiences = () =>
+  getContent().map((experience) => mapExperience(experience, levels))
+
 module.exports = {
-  getExperiences: getContent,
+  getExperiences,
 }
