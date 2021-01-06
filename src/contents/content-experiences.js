@@ -720,5 +720,5 @@ const getContent = () => {
 }
 
 module.exports = {
-  getWorkExperiences: getContent,
+  getExperiences: getContent,
 }
