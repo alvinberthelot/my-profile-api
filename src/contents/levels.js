@@ -29,7 +29,7 @@ const levels = [
           },
           {
             key: "javascript",
-            values: ["angularjs", "knockoutjs"],
+            values: ["angularjs", "vuejs", "knockoutjs"],
           },
         ],
       },
@@ -126,7 +126,7 @@ const levels = [
         values: [
           {
             key: "javascript",
-            values: ["jest", "mocha", "chai", "jasmine", "testcafe"],
+            values: ["jest", "mocha", "chai", "jasmine", "cypress", "testcafe"],
           },
         ],
       },

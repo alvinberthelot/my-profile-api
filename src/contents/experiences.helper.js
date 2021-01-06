@@ -31,7 +31,7 @@ const computeScores = (stacks, tags) => {
         return accScore + (tagFound ? tagFound.score : 0)
       }, 0)
       return {
-        labels: [...acc.labels, stack.key],
+        labels: [...acc.labels, getTagLabel(stack.key)],
         values: [...acc.values, score],
       }
     },

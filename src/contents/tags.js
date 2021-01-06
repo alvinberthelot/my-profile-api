@@ -44,6 +44,9 @@ const tags = {
   cvs: {
     wordings: { fr: "CVS" },
   },
+  cypress: {
+    wordings: { fr: "Cypress" },
+  },
   database: {
     wordings: { fr: "Base de données" },
   },
