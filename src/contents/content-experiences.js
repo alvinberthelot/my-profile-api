@@ -1,4 +1,5 @@
 const { getTagLabel } = require("./tags")
+const { identifier } = require("safe-identifier")
 
 const getContent = () => {
   const experiences = [
@@ -134,7 +135,7 @@ const getContent = () => {
     },
 
     {
-      company: null,
+      company: "Cababam",
       dateBegin: "2016-12-01",
       dateEnd: "2016-12-31",
       place: "Nantes",
@@ -707,6 +708,7 @@ const getContent = () => {
   const content = experiences.map((experience) => {
     return {
       ...experience,
+      id: identifier(experience.company + experience.dateBegin),
       tags: experience.tags
         ? experience.tags.map((tag) => ({
             tag,
