@@ -13,8 +13,8 @@ const getContent = () => {
         "Prestation de conseil pour l'architecture et l'industrialisation d'applications web avec Vue.js. Ainsi que développement de deux applications métier.",
       tasks: [
         "Mise en place de l'outillage et de l'industrialisation",
-        "Développement dune application métier Vue.js avec des API",
-        "Développement dune application métier Vue.js avec des WebSockets",
+        "Développement d'une application métier Vue.js avec des API",
+        "Développement d'une application métier Vue.js avec des WebSockets",
       ],
       tags: [
         "typescript",
