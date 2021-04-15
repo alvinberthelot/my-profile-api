@@ -308,6 +308,9 @@ const tags = {
   webpack: {
     wordings: { fr: "webpack" },
   },
+  websockets: {
+    wordings: { fr: "WebSockets" },
+  },
   websphere: {
     wordings: { fr: "WebSphere" },
   },

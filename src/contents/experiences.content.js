@@ -8,12 +8,13 @@ const getContent = () => {
       dateBegin: "2020-11-26",
       dateEnd: null,
       place: "Nantes",
-      title: "Industrialisation web",
+      title: "Industrialisation web et réalisation d'applications Vue.js",
       description:
-        "Prestation de conseil et de développement pour l'architecture et l'industrialisation d'applications web avec Vue.js.",
+        "Prestation de conseil pour l'architecture et l'industrialisation d'applications web avec Vue.js. Ainsi que développement de deux applications métier.",
       tasks: [
         "Mise en place de l'outillage et de l'industrialisation",
-        "Développement d'applications métier",
+        "Développement dune application métier Vue.js avec des API",
+        "Développement dune application métier Vue.js avec des WebSockets",
       ],
       tags: [
         "typescript",
@@ -21,6 +22,7 @@ const getContent = () => {
         "vuejs",
         "html5",
         "css3",
+        "websockets",
         "npm",
         "git",
         "sonar",
