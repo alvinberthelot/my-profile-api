@@ -166,6 +166,11 @@ const getContent = () => {
       },
       {
         ...events.helloworld,
+        date: "2020-09-02",
+        organizer: true,
+      },
+      {
+        ...events.helloworld,
         date: "2020-05-07",
         organizer: true,
       },
