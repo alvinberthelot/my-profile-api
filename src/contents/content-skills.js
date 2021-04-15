@@ -13,10 +13,11 @@ const getContent = () => {
         ],
       },
       {
-        title: "Consultant",
+        title: "Consultant et formateur",
         subskills: [
           "Conseil sur les choix technologiques et fonctionnels pour la réalisation d'applications web et mobiles",
           "Facilitation et mise en place d'ateliers de conception",
+          "Intervenant pour des écoles et entreprises pour dispenser des formations",
         ],
       },
       {
