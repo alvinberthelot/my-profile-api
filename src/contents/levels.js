@@ -61,8 +61,12 @@ const levels = [
         key: "nodejs",
         values: [
           {
-            key: "express",
-            values: ["passport", "mongoose"],
+            key: "javascript",
+            values: ["express", "passport", "mongoose", "websockets"],
+          },
+          {
+            key: "build",
+            values: ["webpack", "gulp", "grunt", "npm", "verdaccio"],
           },
         ],
       },
