@@ -420,6 +420,7 @@ const getContent = () => {
       company: "En continu chez divers clients",
       dateBegin: "2013-11-01",
       dateEnd: "2015-02-28",
+      place: "Nantes",
       title: "Formateur web",
       description: "Formateur sur les technologies web front-end",
       tasks: [
@@ -435,6 +436,7 @@ const getContent = () => {
       company: "Ippon technologies",
       dateBegin: "2013-05-01",
       dateEnd: "2013-09-30",
+      place: "Nantes",
       description:
         "Consultant technique et animation d’ateliers pour la mise en place d’une capitalisation technique web",
       title: "Facilitateur capitalisation technique web",
@@ -513,7 +515,7 @@ const getContent = () => {
     {
       company: "DGFiP (Direction Générale des Finances Publiques)",
       dateBegin: "2010-07-01",
-      dateEnd: "2012-02-31",
+      dateEnd: "2012-02-29",
       place: "Nantes",
       title: "Responsable d’applications Java EE",
       description:
