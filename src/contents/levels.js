@@ -3,6 +3,23 @@ const levels = [
     key: "frontend",
     values: [
       {
+        key: "mobile",
+        values: [
+          {
+            key: "hybrid",
+            values: ["ionic", "phonegap"],
+          },
+          {
+            key: "android",
+            values: [],
+          },
+          {
+            key: "ios",
+            values: [],
+          },
+        ],
+      },
+      {
         key: "web",
         values: [
           {
@@ -19,7 +36,6 @@ const levels = [
           },
         ],
       },
-
       {
         key: "spa",
         values: [
@@ -30,24 +46,6 @@ const levels = [
           {
             key: "javascript",
             values: ["angularjs", "vuejs", "knockoutjs"],
-          },
-        ],
-      },
-
-      {
-        key: "mobile",
-        values: [
-          {
-            key: "hybrid",
-            values: ["ionic", "phonegap"],
-          },
-          {
-            key: "android",
-            values: [],
-          },
-          {
-            key: "ios",
-            values: [],
           },
         ],
       },
@@ -126,15 +124,6 @@ const levels = [
     key: "industrialization",
     values: [
       {
-        key: "tests",
-        values: [
-          {
-            key: "javascript",
-            values: ["jest", "mocha", "chai", "jasmine", "cypress", "testcafe"],
-          },
-        ],
-      },
-      {
         key: "deploy",
         values: [
           {
@@ -148,6 +137,15 @@ const levels = [
           {
             key: "paas",
             values: ["heroku"],
+          },
+        ],
+      },
+      {
+        key: "tests",
+        values: [
+          {
+            key: "javascript",
+            values: ["jest", "mocha", "chai", "jasmine", "cypress", "testcafe"],
           },
         ],
       },
