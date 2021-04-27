@@ -165,6 +165,7 @@ const getContent = () => {
         "angular",
         "nodejs",
         "express",
+        "passport",
         "neo4j",
         "docker",
       ],
