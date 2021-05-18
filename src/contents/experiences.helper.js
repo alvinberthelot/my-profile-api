@@ -1,6 +1,7 @@
 const { getTagLabel } = require("./tags")
 const { identifier } = require("safe-identifier")
 const { flatten } = require("lodash")
+const { DateTime } = require("luxon")
 
 const computeTagsByStacks = (stacks) => {
   return stacks.reduce((acc, stack) => {
@@ -44,8 +45,16 @@ const computeScores = (stacks, tags) => {
 
 const mapExperience = (experience, levels) => {
   const stacks = levels.reduce((acc, v) => [...acc, ...v.values], [])
+  //
+  const dateBegin = DateTime.fromISO(experience.dateBegin)
+  const dateEnd = DateTime.fromISO(experience.dateEnd)
+  const duration = dateEnd.diff(dateBegin, ["years", "months"])
   return {
     ...experience,
+    duration: {
+      years: duration.years,
+      months: Math.ceil(duration.months),
+    },
     id: identifier(experience.company + experience.dateBegin),
     tags: experience.tags
       ? experience.tags.map((tag) => ({

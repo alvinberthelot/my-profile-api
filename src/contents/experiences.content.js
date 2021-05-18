@@ -6,7 +6,7 @@ const getContent = () => {
     {
       company: "Pasquier",
       dateBegin: "2020-11-26",
-      dateEnd: "2021-04-29",
+      dateEnd: "2021-05-03",
       place: "Nantes",
       title: "Industrialisation web et réalisation d'applications Vue.js",
       description:
