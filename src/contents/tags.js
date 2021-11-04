@@ -254,6 +254,9 @@ const tags = {
   sonar: {
     wordings: { fr: "Sonar" },
   },
+  storybook: {
+    wordings: { fr: "Storybook" },
+  },
   struts: {
     wordings: { fr: "Struts" },
   },

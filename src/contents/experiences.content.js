@@ -4,6 +4,38 @@ const { mapExperience } = require("./experiences.helper")
 const getContent = () => {
   const experiences = [
     {
+      company: "La Poste",
+      dateBegin: "2021-06-17",
+      dateEnd: null,
+      place: "Nantes",
+      title: "Tech lead front-end",
+      description:
+        "Tech lead front-end / Angular au sein de l'équipe La Poste pour le suivi des développements.",
+      tasks: [
+        "Développement d'une application métier Angular",
+        "Cadrages techniques pour les échanges de données via les API développées par l'équipe back-end",
+        "Relectures de code, préconisations et supports auprès des autres développeurs front-end (en interne et en off-shore)",
+        "Mise en place de l'outillage et de l'industrialisation",
+      ],
+      tags: [
+        "typescript",
+        "angular",
+        "ngrx",
+        "nodejs",
+        "html5",
+        "css3",
+        "sass",
+        "jasmine",
+        "npm",
+        "travis",
+        "git",
+        "storybook",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
       company: "Pasquier",
       dateBegin: "2020-11-26",
       dateEnd: "2021-05-03",
