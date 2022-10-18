@@ -10,12 +10,15 @@ const getContent = () => {
       place: "Nantes",
       title: "Tech lead front-end",
       description:
-        "Tech lead front-end / Angular au sein de l'équipe La Poste pour le suivi des développements.",
+        "Tech lead front-end / Angular au sein de l'équipe La Poste pour une application de tri courrier.",
       tasks: [
-        "Développement d'une application métier Angular",
-        "Cadrages techniques pour les échanges de données via les API développées par l'équipe back-end",
-        "Relectures de code, préconisations et supports auprès des autres développeurs front-end (en interne et en off-shore)",
-        "Mise en place de l'outillage et de l'industrialisation",
+        "Création, maintenance et conception d'une application Angular et de son architecture avec la mise en place de l'outillage et de l'industrialisation",
+        "Contribution à la construction de la roadmap, aux échanges de données via les API et la spécification du produit",
+        "Impulser un haut niveau de qualité du code grâce à une politique de relecture de code et une couverture de code via des tests unitaires et E2E",
+        "Apporter un support technique (en interne et en off-shore) à l'équipe (10 développeurs front) et prendre les décisions d'arbitrage logicielle",
+        "Être mentor en interne pour accompagner les développeur·ses moins expérimenté·es",
+        "Faire émerger un design system avec un UX designer pour assurer la cohérence des IHM et du code",
+        "Participer aux différentes cérémonies agiles",
       ],
       tags: [
         "typescript",

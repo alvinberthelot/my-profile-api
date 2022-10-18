@@ -1,14 +1,19 @@
 const getContent = () => {
   const content = [
     {
+      title: "Formation Liberating structures",
+      date: "2022-06-09",
+      tags: ["agile"],
+    },
+    {
       title: "Formation Vue 3",
       date: "2020-12-14",
-      tags: [],
+      tags: ["vue3"],
     },
     {
       title: "Formation Performances Web",
       date: "2020-11-04",
-      tags: [],
+      tags: ["web", "frontend", "javascript", "html", "html5"],
     },
     {
       title: "EventStorming Master Class",
