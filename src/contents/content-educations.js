@@ -1,6 +1,11 @@
 const getContent = () => {
   const content = [
     {
+      title: "Facilitation graphique",
+      date: "2022-11-28",
+      tags: ["agile"],
+    },
+    {
       title: "Formation Liberating structures",
       date: "2022-06-09",
       tags: ["agile"],
