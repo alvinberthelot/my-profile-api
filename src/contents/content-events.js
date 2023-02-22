@@ -88,8 +88,7 @@ const sessions = {
     `,
     resources: [
       {
-        url:
-          "https://www.webyousoon.com/resources/bootstrass/Sass, pratique tout de suite.pdf",
+        url: "https://www.webyousoon.com/resources/bootstrass/Sass, pratique tout de suite.pdf",
         type: "pdf",
       },
     ],
@@ -115,8 +114,7 @@ const sessions = {
     type: "conference",
     resources: [
       {
-        url:
-          "https://www.webyousoon.com/resources/ideatomarket/De l'idée au marché ... ou pas !.V1.pdf",
+        url: "https://www.webyousoon.com/resources/ideatomarket/De l'idée au marché ... ou pas !.V1.pdf",
         type: "pdf",
       },
     ],
@@ -136,8 +134,7 @@ const sessions = {
     type: "workshop",
     resources: [
       {
-        url:
-          "https://www.webyousoon.com/resources/letssketchtogether/Let's sketch together.pdf",
+        url: "https://www.webyousoon.com/resources/letssketchtogether/Let's sketch together.pdf",
         type: "pdf",
       },
     ],
@@ -159,6 +156,10 @@ const getContent = () => {
     title: "Conférences",
     description: "",
     events: [
+      {
+        ...events.web2day,
+        date: "2022-06-02",
+      },
       {
         ...events.helloworld,
         date: "2021-04-16",
