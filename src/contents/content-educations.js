@@ -1,7 +1,7 @@
 const getContent = () => {
   const content = [
     {
-      title: "Formation TypeScript avancée",
+      title: "Formation TypeScript avancé",
       date: "2023-06-15",
       tags: ["typescript", "javascript", "frontend", "backend"],
     },

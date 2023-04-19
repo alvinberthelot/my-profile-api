@@ -39,7 +39,7 @@ const getContent = () => {
       place: "Nantes",
       title: "Coaching front-end / tests E2E avec Playwright",
       description:
-        "Coaching pour industrialiser des tests E2E avec Playwright dans 2 applications inter-dépendnates B2C et B2B en Vue",
+        "Coaching pour industrialiser des tests E2E avec Playwright dans 2 applications inter-dépendantes B2C et B2B en Vue",
       tasks: [
         "Élaboration d'un plan d'actions pour migrer des tests E2E vers Playwright avec une harmonisation des conventions",
         "Implémentation de tests",
