@@ -47,7 +47,7 @@ const getContent = () => {
       ],
       tags: [
         "typescript",
-        "vue",
+        "vue3",
         "nodejs",
         "playwright",
         "e2e",
