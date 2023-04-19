@@ -65,6 +65,9 @@ const tags = {
   docker: {
     wordings: { fr: "Docker" },
   },
+  e2e: {
+    wordings: { fr: "E2E (End-toEnd testing)" },
+  },
   easyphp: {
     wordings: { fr: "Easy PHP" },
   },
@@ -205,6 +208,9 @@ const tags = {
   },
   phonegap: {
     wordings: { fr: "PhoneGap" },
+  },
+  playwright: {
+    wordings: { fr: "Playwright" },
   },
   postgresql: {
     wordings: { fr: "PostgreSQL" },

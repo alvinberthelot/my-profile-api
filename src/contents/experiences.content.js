@@ -4,13 +4,97 @@ const { mapExperience } = require("./experiences.helper")
 const getContent = () => {
   const experiences = [
     {
+      company: "Oniris",
+      dateBegin: "2023-04-05",
+      dateEnd: "2023-05-11",
+      place: "Nantes",
+      title: "Consultant pour une solution de data-visualisation",
+      description:
+        "Prestation de développement d'une application web de simulation d'un lapin dans le cadre d'une intervention vétérinaire",
+      tasks: [
+        "Préconisations d'une architecture technique web par rapport à un existant",
+        "Rédactions de spécifications techniques",
+        "Initialisation d'un dépôt WebSocket en Python pour la partie serveur",
+        "Développement d'une IHM de data-visualisation affichant des données physiologiques en client web",
+      ],
+      tags: [
+        "typescript",
+        "nodejs",
+        "playwright",
+        "e2e",
+        "html5",
+        "npm",
+        "git",
+        "python",
+        "websockets",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "PeeK'in",
+      dateBegin: "2023-03-21",
+      dateEnd: null,
+      place: "Nantes",
+      title: "Coaching front-end / tests E2E avec Playwright",
+      description:
+        "Coaching pour industrialiser des tests E2E avec Playwright dans 2 applications inter-dépendnates B2C et B2B en Vue",
+      tasks: [
+        "Élaboration d'un plan d'actions pour migrer des tests E2E vers Playwright avec une harmonisation des conventions",
+        "Implémentation de tests",
+        "Rédaction de la documentation et support à l'équipe",
+      ],
+      tags: [
+        "typescript",
+        "vue",
+        "nodejs",
+        "playwright",
+        "e2e",
+        "html5",
+        "npm",
+        "git",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
       company: "La Poste",
-      dateBegin: "2021-06-17",
+      dateBegin: "2023-02-20",
       dateEnd: null,
       place: "Nantes",
       title: "Tech lead front-end",
       description:
-        "Tech lead front-end / Angular au sein de l'équipe La Poste pour une application de tri courrier.",
+        "Consultant Angular au sein d'une équipe La Poste (C2IA : Déploiements d'IA dans un contexte industriel).",
+      tasks: [
+        "Assurer la montée en compétence des juniors sur le projet",
+        "Analyser le code et l'environnement de développement pour suggérer des axes d'amélioration",
+        "Contribuer au développement des US, l'implémentation des TU, la relecture du code",
+      ],
+      tags: [
+        "typescript",
+        "angular",
+        "nodejs",
+        "html5",
+        "css3",
+        "sass",
+        "jasmine",
+        "npm",
+        "git",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "La Poste",
+      dateBegin: "2021-06-17",
+      dateEnd: "2023-02-10",
+      place: "Nantes",
+      title: "Tech lead front-end",
+      description:
+        "Tech lead front-end / Angular au sein d'une équipe La Poste (Édition de Plan Tri Courrier).",
       tasks: [
         "Création, maintenance et conception d'une application Angular et de son architecture avec la mise en place de l'outillage et de l'industrialisation",
         "Contribution à la construction de la roadmap, aux échanges de données via les API et la spécification du produit",
@@ -33,6 +117,7 @@ const getContent = () => {
         "travis",
         "git",
         "storybook",
+        "e2e",
       ],
       repository: null,
       downloads: null,
