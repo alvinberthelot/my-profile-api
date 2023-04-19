@@ -66,7 +66,7 @@ const tags = {
     wordings: { fr: "Docker" },
   },
   e2e: {
-    wordings: { fr: "E2E (End-toEnd testing)" },
+    wordings: { fr: "E2E (End-to-End testing)" },
   },
   easyphp: {
     wordings: { fr: "Easy PHP" },
