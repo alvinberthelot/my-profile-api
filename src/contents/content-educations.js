@@ -1,6 +1,16 @@
 const getContent = () => {
   const content = [
     {
+      title: "Formation TypeScript avancée",
+      date: "2023-06-15",
+      tags: ["typescript", "javascript", "frontend", "backend"],
+    },
+    {
+      title: "Formation CNV (Communication Non Violente",
+      date: "2023-03-09",
+      tags: ["agile"],
+    },
+    {
       title: "Facilitation graphique",
       date: "2022-11-28",
       tags: ["agile"],
