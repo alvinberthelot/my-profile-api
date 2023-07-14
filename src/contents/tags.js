@@ -32,6 +32,9 @@ const tags = {
   chai: {
     wordings: { fr: "Chai" },
   },
+  chartjs: {
+    wordings: { fr: "Chart.js" },
+  },
   ci: {
     wordings: { fr: "Intégration continue" },
   },

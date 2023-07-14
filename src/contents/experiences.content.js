@@ -4,35 +4,6 @@ const { mapExperience } = require("./experiences.helper")
 const getContent = () => {
   const experiences = [
     {
-      company: "Oniris",
-      dateBegin: "2023-04-05",
-      dateEnd: "2023-05-11",
-      place: "Nantes",
-      title: "Consultant pour une solution de data-visualisation",
-      description:
-        "Prestation de développement d'une application web de simulation d'un lapin dans le cadre d'une intervention vétérinaire",
-      tasks: [
-        "Préconisations d'une architecture technique web par rapport à un existant",
-        "Rédactions de spécifications techniques",
-        "Initialisation d'un dépôt WebSocket en Python pour la partie serveur",
-        "Développement d'une IHM de data-visualisation affichant des données physiologiques en client web",
-      ],
-      tags: [
-        "typescript",
-        "nodejs",
-        "playwright",
-        "e2e",
-        "html5",
-        "npm",
-        "git",
-        "python",
-        "websockets",
-      ],
-      repository: null,
-      downloads: null,
-    },
-
-    {
       company: "PeeK'in",
       dateBegin: "2023-03-21",
       dateEnd: null,
@@ -60,9 +31,50 @@ const getContent = () => {
     },
 
     {
+      company: "Cosling",
+      dateBegin: "2023-07-03",
+      dateEnd: "2023-07-06",
+      place: "Nantes",
+      title: "Consultant Angular",
+      description:
+        "Réalisation d'un audit technique et migration d'une application Angular de la version 9 à la version 15",
+      tasks: [],
+      tags: ["typescript", "nodejs", "angular", "nodejs", "npm", "git"],
+      repository: null,
+      downloads: null,
+    },
+
+    {
+      company: "Oniris",
+      dateBegin: "2023-04-05",
+      dateEnd: "2023-05-11",
+      place: "Nantes",
+      title: "Consultant data-visualisation",
+      description:
+        "Prestation de développement d'une application web de simulation d'un lapin dans le cadre d'une intervention vétérinaire",
+      tasks: [
+        "Préconisations d'une architecture technique web par rapport à un existant",
+        "Initialisation d'un dépôt WebSocket en Python pour la partie serveur",
+        "Développement d'une IHM de data-visualisation affichant des données physiologiques en client web",
+      ],
+      tags: [
+        "typescript",
+        "nodejs",
+        "chartjs",
+        "html5",
+        "npm",
+        "git",
+        "python",
+        "websockets",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
       company: "La Poste",
       dateBegin: "2023-02-20",
-      dateEnd: null,
+      dateEnd: "2023-06-30",
       place: "Nantes",
       title: "Tech lead front-end",
       description:

@@ -145,7 +145,15 @@ const levels = [
         values: [
           {
             key: "javascript",
-            values: ["jest", "mocha", "chai", "jasmine", "cypress", "testcafe"],
+            values: [
+              "jest",
+              "mocha",
+              "chai",
+              "jasmine",
+              "cypress",
+              "testcafe",
+              "playwright",
+            ],
           },
         ],
       },
