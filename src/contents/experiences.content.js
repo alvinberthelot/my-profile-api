@@ -6,7 +6,7 @@ const getContent = () => {
     {
       company: "PeeK'in",
       dateBegin: "2023-03-21",
-      dateEnd: null,
+      dateEnd: "2023-07-13",
       place: "Nantes",
       title: "Coaching front-end / tests E2E avec Playwright",
       description:
