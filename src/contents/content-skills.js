@@ -2,7 +2,7 @@ const getContent = () => {
   const content = {
     title: "Compétences",
     description:
-      "Contactez-moi si vous avez un projet, un besoin de renfort dans votre équipe ou une demande de formation en lien avec mes compétences.",
+      "En tant que freelance, je peux proposer mes services pour des postes tels que CTO, engineering manager, consultant, formateur et tech lead / développeur senior pour des environnements techniques à tendance web et mobile.",
     skills: [
       {
         title: "Tech lead front-end",
