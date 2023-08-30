@@ -6,7 +6,7 @@ const getContent = () => {
       tags: ["typescript", "javascript", "frontend", "backend"],
     },
     {
-      title: "Formation CNV (Communication Non Violente",
+      title: "Formation CNV (Communication Non Violente)",
       date: "2023-03-09",
       tags: ["agile"],
     },
