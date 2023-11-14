@@ -157,6 +157,19 @@ const getContent = () => {
     description: "",
     events: [
       {
+        ...events.devfest,
+        date: "2023-10-19",
+      },
+      {
+        ...events.helloworld,
+        date: "2023-09-29",
+        organizer: true,
+      },
+      {
+        ...events.web2day,
+        date: "2023-06-01",
+      },
+      {
         ...events.web2day,
         date: "2022-06-02",
       },
