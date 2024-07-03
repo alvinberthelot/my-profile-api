@@ -157,6 +157,15 @@ const getContent = () => {
     description: "",
     events: [
       {
+        ...events.dotjs,
+        date: "2024-06-27",
+      },
+      {
+        ...events.helloworld,
+        date: "2024-04-12",
+        organizer: true,
+      },
+      {
         ...events.devfest,
         date: "2023-10-19",
       },
