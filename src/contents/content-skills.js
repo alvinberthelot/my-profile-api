@@ -6,7 +6,7 @@ const getContent = () => {
     skills: [
       {
         title: "Tech lead front-end",
-        period: "De 2018 à 2023",
+        period: "De 2018 à 2024",
         subskills: [
           "Encadrement technique et animation d'une équipe de développeur·euse·s avec montée en compétences de l'équipe",
           "Contribution à la rédaction des US, communication et priorisation des futurs développements et suivi des avancées",
