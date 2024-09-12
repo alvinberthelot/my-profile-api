@@ -4,9 +4,45 @@ const { mapExperience } = require("./experiences.helper")
 const getContent = () => {
   const experiences = [
     {
+      company: "Hermès - Cap Gemini",
+      dateBegin: "2023-11-20",
+      dateEnd: "2024-09-10",
+      place: "Nantes",
+      title: "Développeur expérimenté TypeScript (Design Authority)",
+      description:
+        "Développeur expérimenté TypeScript (Design Authority) au sein d'une grosse équipe Hermès - Cap Gemini pour le site e-commerce.",
+      tasks: [
+        "Réalisation, maintenance et conception au sein d'une application Angular (SSR/SPA)",
+        "Réalisation, maintenance et conception au sein d'une application Express (API uniquement) avec Node.js/TypeScript",
+        "Être mentor en interne pour accompagner les développeur·ses moins expérimenté·es",
+        "Impulser un haut niveau de qualité du code grâce à une politique de relecture de code et une couverture de code via des tests unitaires",
+        "Participer aux différentes cérémonies agiles",
+      ],
+      tags: [
+        "typescript",
+        "frontend",
+        "angular",
+        "ngrx",
+        "backend",
+        "express",
+        "nodejs",
+        "html5",
+        "css3",
+        "sass",
+        "jest",
+        "npm",
+        "git",
+        "bitbucket",
+        "storybook",
+      ],
+      repository: null,
+      downloads: null,
+    },
+
+    {
       company: "PeeK'in",
       dateBegin: "2023-03-21",
-      dateEnd: "2023-07-13",
+      dateEnd: "2023-11-10",
       place: "Nantes",
       title: "Coaching front-end / tests E2E avec Playwright",
       description:

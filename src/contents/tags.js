@@ -23,6 +23,9 @@ const tags = {
   backend: {
     wordings: { fr: "Back-end" },
   },
+  bitbucket: {
+    wordings: { fr: "Bitbucket" },
+  },
   bootstrap: {
     wordings: { fr: "Bootstrap" },
   },
