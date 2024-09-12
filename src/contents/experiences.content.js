@@ -4,12 +4,12 @@ const { mapExperience } = require("./experiences.helper")
 const getContent = () => {
   const experiences = [
     {
-      company: "Hermès - Cap Gemini",
+      company: "Capgemini",
       dateBegin: "2023-11-20",
       dateEnd: "2024-09-10",
       place: "Nantes",
       title: "Développeur expérimenté TypeScript front-end / back-end",
-      description: `Développeur expérimenté TypeScript front-end / back-end et membre de la "Design Authority" au sein de l'équipe Hermès - Cap Gemini pour le site e-commerce.`,
+      description: `Développeur expérimenté TypeScript front-end / back-end et membre de la "Design Authority" au sein de l'équipe Capgemini pour le site e-commerce d'une marque de luxe.`,
       tasks: [
         "Réalisation, maintenance et conception au sein d'une application Angular (SSR/SPA)",
         "Réalisation, maintenance et conception au sein d'une application Express (API) avec Node.js/TypeScript",
